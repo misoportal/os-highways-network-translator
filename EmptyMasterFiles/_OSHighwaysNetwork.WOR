@@ -1,0 +1,528 @@
+!Workspace
+!Version 1200
+!Charset WindowsLatin1
+Open Table "AccessRestrictionLine" As AccessRestrictionLine Interactive
+Open Table "AccessRestrictionPoint" As AccessRestrictionPoint Interactive
+Open Table "Advisory_RoadLink" As Advisory_RoadLink Interactive
+Open Table "AssetManagement_Paths" As AssetManagement_Paths Interactive
+Open Table "AssetManagement_Roads" As AssetManagement_Roads Interactive
+Open Table "ConnectingLink" As ConnectingLink Interactive
+Open Table "ConnectingNode" As ConnectingNode Interactive
+Open Table "FerryLink_Paths" As FerryLink_Paths Interactive
+Open Table "FerryLink_Roads" As FerryLink_Roads Interactive
+Open Table "FerryTerminal_Paths" As FerryTerminal_Paths Interactive
+Open Table "FerryTerminal_Roads" As FerryTerminal_Roads Interactive
+Open Table "Hazard" As Hazard Interactive
+Open Table "HighwayDedication_Paths" As HighwayDedication_Paths Interactive
+Open Table "HighwayDedication_Roads" As HighwayDedication_Roads Interactive
+Open Table "Path" As Path Interactive
+Open Table "PathLink" As PathLink Interactive
+Open Table "PathNode" As PathNode Interactive
+Open Table "RestrictionForVehiclesLine" As RestrictionForVehiclesLine Interactive
+Open Table "RestrictionForVehiclesPoint" As RestrictionForVehiclesPoint Interactive
+Open Table "Road" As Road Interactive
+Open Table "RoadJunction" As RoadJunction Interactive
+Open Table "RoadLink" As RoadLink Interactive
+Open Table "RoadNode" As RoadNode Interactive
+Open Table "Street_Named_Paths" As Street_Named_Paths Interactive
+Open Table "Street_Named_Roads" As Street_Named_Roads Interactive
+Open Table "Street_Numbered_Paths" As Street_Numbered_Paths Interactive
+Open Table "Street_Numbered_Roads" As Street_Numbered_Roads Interactive
+Open Table "Structure" As Structure Interactive
+Open Table "TurnRestrictionPoint" As TurnRestrictionPoint Interactive
+Open Table "TurnRestrictionLine" As TurnRestrictionLine Interactive
+Map From GroupLayer("Nodes",RoadNode,PathNode,ConnectingNode),GroupLayer("Hazards, Structures",Hazard,Structure,Advisory_RoadLink
+  ),GroupLayer("Restrictions",AccessRestrictionPoint
+  ,AccessRestrictionLine,TurnRestrictionPoint,TurnRestrictionLine,RestrictionForVehiclesPoint,RestrictionForVehiclesLine
+  ),GroupLayer("Links",FerryLink_Paths,FerryLink_Roads,RoadLink,PathLink,ConnectingLink)
+  Position (0.0416667,1.59375) Units "in"
+  Width 7.10417 Units "in" Height 2.90625 Units "in" 
+Dim easting As Integer
+Dim northing As Integer
+Set Coordsys Table RoadLink
+Select CentroidX(obj), CentroidY(obj) From RoadLink Where RowID = Round(0.7*(Select Count(*) From RoadLink),1) Into Central
+Fetch First From Central
+easting = Central.col1
+northing = Central.col2
+Run Menu Command 304
+Close Table Central
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 8, 79, "m", -2, 49, 0.9996012717, 400000, -100000
+  Center (easting,northing)
+  Zoom 2 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "m"
+shade 15 with roadClassification values 
+  "A Road" Line (25,2,16751001) ,
+  "B Road" Line (25,2,16763955) ,
+  "Classified Unnumbered" Line (25,2,16777062) ,
+  "Motorway" Line (25,2,6724095) ,
+  "Not Classified" Line (25,2,13408767) ,
+  "Unclassified" Line (25,2,10066329) ,
+  "Unknown" Line (25,2,13421772) 
+  default Line (25,2,13421772)   # color 1 # 
+shade 10 with restriction values 
+  "Mandatory Turn" Line (20,59,255) ,
+  "No Turn" Line (20,59,16711680) ,
+  "One Way" Line (20,59,0) 
+  default Line (1,2,0)   # color 1 # 
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.0625) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.0625) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.0625) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0.0625, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.25) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.25) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 9
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.125) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (0, 0.125) Units "km" 
+  Layer 11
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.125) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 12
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 13
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 0.5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 14
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 15
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 16
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+  Layer 17
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 2) Units "km" Off 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,0,16777215) Pen (1,2,0) 
+      With roadClassificationNumber+" "+roadName1_Name+" "+roadName2_Name
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 8) Units "km" LabelAlpha 191
+  Layer 18
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 2) Units "km" 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,8421504,16777215) Pen (1,2,0) 
+      With pathName1_Text+" "+pathName2_Text
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility On LabelAlpha 191
+  Layer 19
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TOID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  GroupLayer 1
+    Display On Title "Nodes"
+  GroupLayer 2
+    Display On Title "Hazards, Structures"
+  GroupLayer 3
+    Display On Title "Restrictions"
+  GroupLayer 4
+    Display On Title "Links"
+set legend 
+  layer 10 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 16 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+Set Window FrontWindow() Title "OS Highways Map"
+Create Designer Legend
+  Position (11.3021,3.55208) Units "in"
+  Width 2.80208 Units "in" Height 3.6875 Units "in" 
+  Window Title "Legend: OS Highways"
+  Custom
+  Default Frame Title "# Legend" Font ("Arial",0,10,0)
+  Default Frame Style "%" Font ("Arial",0,7,0)
+  Default Frame Line Width 36 Units "pt"
+  Default Frame Region Width 32 Units "pt"
+  Default Frame Region Height 14 Units "pt"
+  Default Frame Auto Font Size ON 
+  Frame From Layer 1
+    Position (0,0) Units "in"
+    Title "Nodes Legend" Font ("Arial",0,10,0)
+    Using Column identifier FromMapCatalog OFF Label identifier 
+    Style Font ("Arial",0,7,0)
+      Text "Ferry node" Symbol (40,26367,5) 
+      Text "Road node" Symbol (38,0,7) 
+      Text "Path node" Symbol (38,8421504,7) 
+      Text "Connecting node" Symbol (40,8421504,5) 
+  Frame From Layer 5
+    Position (1.74,0) Units "in"
+    Title "Hazards, Structures Legend" Font ("Arial",0,10,0)
+    Using Column identifier FromMapCatalog OFF Label identifier 
+    Style Font ("Arial",0,7,0)
+      Text "Hazard" Symbol (34,128,5) 
+      Text "Structure" Symbol (50,6710886,10) 
+      Text "Traffic Calming or Hazard" Line Pen (16,46,6710886) 
+  Frame From Layer 11
+    Position (0,0.75) Units "in"
+    Title "Restrictions Legend" Font ("Arial",0,10,0)
+    Using Column restriction FromMapCatalog OFF Label restriction 
+    Style Font ("Arial",0,7,0)
+      Text "Access Restriction" Symbol (34,3381606,7) 
+      Text "Restriction For Vehicles" Symbol (34,13369344,7) 
+      Text "Turn Restriction" Symbol (40,6710886,9) 
+      Text "Access Restriction" Line Pen (20,2,3381606) 
+      Text "Restriction For Vehicles" Line Pen (20,2,13369344) 
+      Text "Mandatory Turn" Line Pen (20,59,255) 
+      Text "No Turn" Line Pen (20,59,16711680) 
+      Text "One Way" Line Pen (20,59,0) 
+  Frame From Layer 17
+    Position (1.75,0.658401) Units "in"
+    Title "Links Legend" Font ("Arial",0,10,0)
+    Using Column roadClassification FromMapCatalog OFF Label roadClassification 
+    Style Font ("Arial",0,7,0)
+      Text "Ferry link" Line Pen (25,3,26367) 
+      Text "A Road" Line Pen (25,2,16751001) 
+      Text "B Road" Line Pen (25,2,16763955) 
+      Text "Classified Unnumbered" Line Pen (25,2,16777062) 
+      Text "Motorway" Line Pen (25,2,6724095) 
+      Text "Not Classified" Line Pen (25,2,13408767) 
+      Text "Unclassified" Line Pen (25,2,10066329) 
+      Text "Unknown road class" Line Pen (25,2,13421772) 
+      Text "Path link" Line Pen (20,2,13421772) 
+      Text "Connecting link" Line Pen (20,3,13421772) 
+Map From GroupLayer("Highway Dedication",HighwayDedication_Roads,HighwayDedication_Paths),GroupLayer("Streets",Street_Numbered_Roads,Street_Numbered_Paths,Street_Named_Roads,Street_Named_Paths),GroupLayer("Asset Management",AssetManagement_Roads,AssetManagement_Paths)
+  Position (5.44792,3.10417) Units "in"
+  Width 5.39583 Units "in" Height 2.69792 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
+Set Map
+  CoordSys Earth Projection 8, 79, "m", -2, 49, 0.9996012717, 400000, -100000
+  Center (easting,northing)
+  Zoom 2 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "m"
+UnDim easting
+UnDim northing
+shade 8 with maintenanceResponsibility values 
+  "" Brush (1,32896) Pen (20,2,0) ,
+  "Maintainable At Public Expense" Brush (3,65280) Pen (1,2,12632256) ,
+  "Maintenance Responsibility Is To Another Highway Authority" Brush (4,255) Pen (1,2,12632256) ,
+  "Not Maintained At Public Expense" Brush (5,16711935) Pen (1,2,12632256) ,
+  "Prospectively Maintainable At Public Expense" Brush (6,16774661) Pen (1,2,8882048) ,
+  "Street Outside Scope Of EToN" Brush (15,65535) Pen (1,2,12632256) 
+  default Brush (15,0) Pen (1,2,12632256)   # color 1 # 
+shade 7 with maintenanceResponsibility values 
+  "" Brush (1,32896) Pen (20,2,0) ,
+  "Maintainable At Public Expense" Brush (3,65280) Pen (1,2,12632256) ,
+  "Maintenance Responsibility Is To Another Highway Authority" Brush (4,255) Pen (1,2,12632256) ,
+  "Not Maintained At Public Expense" Brush (5,16711935) Pen (1,2,12632256) ,
+  "Prospectively Maintainable At Public Expense" Brush (6,16774661) Pen (1,2,12632256) ,
+  "Street Outside Scope Of EToN" Brush (15,65535) Pen (1,2,12632256) 
+  default Brush (15,0) Pen (1,2,12632256)   # color 1 # 
+shade 3 with roadClassification values 
+  "A Road" Line (25,2,16751001) ,
+  "B Road" Line (25,2,16763955) ,
+  "Classified Unnumbered" Line (25,2,16777062) ,
+  "Motorway" Line (25,2,6724095) 
+  default Line (25,2,10066329)   # color 1 # 
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With id
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 2) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With id
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (0, 32) Units "km" Off 
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 32) Units "km" Off 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,8421504,16777215) Pen (1,2,0) 
+      With nationalRoadCode+localRoadCode
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 32) Units "km" LabelAlpha 191
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 16) Units "km" Off 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,8421504,16777215) Pen (1,2,0) 
+      With nationalRoadCode+localRoadCode
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 8) Units "km" LabelAlpha 191
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 8) Units "km" Off 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,8421504,16777215) Pen (1,2,0) 
+      With designatedName1+" "+designatedName2+" "+localName1+" "+localName2
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 8) Units "km" LabelAlpha 191
+  Layer 7
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 8) Units "km" Off 
+    Label Line None Position Above Auto Retry On Font ("Arial",256,6,8421504,16777215) Pen (1,2,0) 
+      With designatedName1+" "+designatedName2+" "+localName1+" "+localName2
+      Follow Path BestPosition On Auto On Overlap Off Duplicates Off PartialSegments On Offset 2
+      Visibility Zoom (0, 8) Units "km" LabelAlpha 191
+  Layer 8
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (0, 1) Units "km" 
+  Layer 9
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Value
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (0, 1) Units "km" 
+  Layer 11
+    Display Graphic
+    Global Pen (1,2,0) Brush (2,16777215,16777215) Symbol (35,0,12) Line (1,2,0) Font ("Arial",0,9,0)
+    Zoom (0, 1) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  GroupLayer 1
+    Display On Title "Highway Dedication"
+  GroupLayer 2
+    Display On Title "Streets"
+  GroupLayer 3
+    Display On Title "Asset Management"
+set legend 
+  layer 3 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 8 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on  
+set legend 
+  layer 10 
+    display on 
+    shades on 
+    symbols off 
+    lines off 
+    count on 
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on 
+    ranges Font ("Arial",0,8,0)
+      auto display off ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display on ,
+      auto display off  
+Set Window FrontWindow() Title "NSG Streets Map"
+Create Designer Legend
+  Position (8.70833,4.54167) Units "in"
+  Width 5.39583 Units "in" Height 2.69792 Units "in" 
+  Window Title "Legend: NSG Streets"
+  Custom
+  Default Frame Title "# Legend" Font ("Arial",0,10,0)
+  Default Frame Style "%" Font ("Arial",0,7,0)
+  Default Frame Line Width 36 Units "pt"
+  Default Frame Region Width 32 Units "pt"
+  Default Frame Region Height 14 Units "pt"
+  Default Frame Auto Font Size ON 
+  Frame From Layer 1
+    Position (0,0) Units "in"
+    Title "HighwayDedication Legend" Font ("Arial",0,10,0)
+    Using Column dedication FromMapCatalog OFF Label dedication 
+    Style Font ("Arial",0,7,0)
+      Text "Road dedicated rights" Line Pen (20,4,11776947) 
+      Text "Path dedicated rights" Line Pen (20,3,11776947) 
+  Frame From Layer 4
+    Position (1.75,0) Units "in"
+    Title "Streets Legend" Font ("Arial",0,10,0)
+    Using Column roadClassification FromMapCatalog OFF Label roadClassification 
+    Style Font ("Arial",0,7,0)
+      Text "A Road" Line Pen (25,2,16751001) 
+      Text "B Road" Line Pen (25,2,16763955) 
+      Text "Classified Unnumbered" Line Pen (25,2,16777062) 
+      Text "Locally Numbered" Line Pen (25,2,10066329) 
+      Text "Motorway" Line Pen (25,2,6724095) 
+      Text "Street named - roads" Line Pen (25,2,13421772) 
+      Text "Street named - paths" Line Pen (20,2,13421772) 
+  Frame From Layer 8
+    Position (0,0.96) Units "in"
+    Title "AssetManagement Legend" Font ("Arial",0,10,0)
+    Using Column maintenanceResponsibility FromMapCatalog OFF Label maintenanceResponsibility 
+    Style Font ("Arial",0,7,0)
+      Text "Reinstatement and/or Special Designation" Region Pen (20,2,0)  Brush (1,32896) 
+      Text "Maintainable At Public Expense" Region Pen (1,2,12632256)  Brush (3,65280) 
+      Text "Maintenance Responsibility Is To Another Highway Authority" Region Pen (1,2,12632256)  Brush (4,255) 
+      Text "Not Maintained At Public Expense" Region Pen (1,2,12632256)  Brush (5,16711935) 
+      Text "Prospectively Maintainable At Public Expense" Region Pen (1,2,12632256)  Brush (6,16774661) 
+      Text "Street Outside Scope Of EToN" Region Pen (1,2,12632256)  Brush (15,65535) 
