@@ -15,7 +15,7 @@ The OS Highways Network dataset is both very powerful and hugely complex.  The m
 </ul>
 The solution is built on the widely available FME technology and released as an FME workspace which can be run on FME Desktop Pro 2018.1 upwards.  FME was chosen as it is the best technology to deliver the “heavy lifting” required and is widely adopted in both the OpenSource and GIS communities. 
 
-An example of the data created from the OS Highways Network Translator, along with the relevant documentation can be found at https://s3-eu-west-1.amazonaws.com/free.data/SampleData-OS_HighwaysNetwork_Translator.zip
+An example of the data created from the OS Highways Network Translator, along with the relevant documentation can be found at <a href="https://s3-eu-west-1.amazonaws.com/free.data/SampleData-OS_HighwaysNetwork_Translator.zip">SampleData-OS_HighwaysNetwork_Translator</a>
 
 # Instructions
 
