@@ -12,7 +12,7 @@
       </PreviousContainerDesiredSize>
       <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
       <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-      <Name>AddedName9</Name>
+      <Name>AddedName47</Name>
       <ShowTopmostMenuItem>true</ShowTopmostMenuItem>
       <TopMost>false</TopMost>
       <State>Document</State>
@@ -29,13 +29,13 @@
       <CanDock>true</CanDock>
       <CanClose>true</CanClose>
       <IsSelectedTab>false</IsSelectedTab>
-      <IsActiveWindow>false</IsActiveWindow>
+      <IsActiveWindow>true</IsActiveWindow>
       <WindowRect>4,153,694,312</WindowRect>
       <TabGroupName />
       <IsTabGroupOwner>false</IsTabGroupOwner>
       <SideTabOrder>0</SideTabOrder>
-      <IndexInDockMode>3</IndexInDockMode>
-      <IndexInFloatMode>3</IndexInFloatMode>
+      <IndexInDockMode>4</IndexInDockMode>
+      <IndexInFloatMode>4</IndexInFloatMode>
       <TabOrderInDockMode>0</TabOrderInDockMode>
       <TabOrderInFloatMode>0</TabOrderInFloatMode>
       <MDIBounds>0,0,124,50</MDIBounds>
@@ -87,35 +87,35 @@
       <ZorderInFloatMode>0</ZorderInFloatMode>
       <TabOrderIndex>-1</TabOrderIndex>
       <PreviousContainerDesiredSize>
-        <Width>372</Width>
-        <Height>551</Height>
+        <Width>351.00657967855875</Width>
+        <Height>275.5</Height>
       </PreviousContainerDesiredSize>
-      <PreviousDesiredWidthInDockedMode>372</PreviousDesiredWidthInDockedMode>
-      <PreviousDesiredHeightInDockedMode>261.00000000000006</PreviousDesiredHeightInDockedMode>
-      <Name>AddedName10</Name>
+      <PreviousDesiredWidthInDockedMode>351.00657967855875</PreviousDesiredWidthInDockedMode>
+      <PreviousDesiredHeightInDockedMode>275.5</PreviousDesiredHeightInDockedMode>
+      <Name>AddedName48</Name>
       <ShowTopmostMenuItem>true</ShowTopmostMenuItem>
       <TopMost>false</TopMost>
       <State>Dock</State>
       <NoHeader>false</NoHeader>
-      <SideDocked>Right</SideDocked>
+      <SideDocked>Top</SideDocked>
       <SideFloating>Left</SideFloating>
-      <TargetDocked />
+      <TargetDocked>AddedName50</TargetDocked>
       <TargetFloating />
-      <DesiredWidthInDockedMode>372</DesiredWidthInDockedMode>
-      <DesiredHeightInDockedMode>261.00000000000006</DesiredHeightInDockedMode>
+      <DesiredWidthInDockedMode>381.557303043675</DesiredWidthInDockedMode>
+      <DesiredHeightInDockedMode>273</DesiredHeightInDockedMode>
       <DesiredWidthInFloatingMode>269</DesiredWidthInFloatingMode>
-      <DesiredHeightInFloatingMode>354</DesiredHeightInFloatingMode>
+      <DesiredHeightInFloatingMode>321</DesiredHeightInFloatingMode>
       <NoDock>false</NoDock>
       <CanDock>true</CanDock>
       <CanClose>true</CanClose>
       <IsSelectedTab>true</IsSelectedTab>
       <IsActiveWindow>false</IsActiveWindow>
-      <WindowRect>1085,341,281,387</WindowRect>
+      <WindowRect>1052,329,281,354</WindowRect>
       <TabGroupName />
       <IsTabGroupOwner>false</IsTabGroupOwner>
       <SideTabOrder>0</SideTabOrder>
       <IndexInDockMode>2</IndexInDockMode>
-      <IndexInFloatMode>2</IndexInFloatMode>
+      <IndexInFloatMode>3</IndexInFloatMode>
       <TabOrderInDockMode>0</TabOrderInDockMode>
       <TabOrderInFloatMode>0</TabOrderInFloatMode>
       <MDIBounds>0,0,124,50</MDIBounds>
@@ -130,8 +130,8 @@
       <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
       <PreviousSideInDockMode>Right</PreviousSideInDockMode>
       <DoShift>false</DoShift>
-      <SideRelativetoContainer>Right</SideRelativetoContainer>
-      <TabParent>AddedName10</TabParent>
+      <SideRelativetoContainer>Top</SideRelativetoContainer>
+      <TabParent>AddedName48</TabParent>
       <DockWindowState>Normal</DockWindowState>
       <CanMaximize>true</CanMaximize>
       <CanMinimize>true</CanMinimize>
@@ -148,7 +148,7 @@
       <FixedHeight>0</FixedHeight>
       <FixedWidth>0</FixedWidth>
       <ContainerSize>
-        <Width>372</Width>
+        <Width>381.557303043675</Width>
         <Height>551</Height>
       </ContainerSize>
       <PreviousHostWidth>90</PreviousHostWidth>
@@ -172,7 +172,7 @@
       </PreviousContainerDesiredSize>
       <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
       <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-      <Name>AddedName11</Name>
+      <Name>AddedName49</Name>
       <ShowTopmostMenuItem>true</ShowTopmostMenuItem>
       <TopMost>false</TopMost>
       <State>Document</State>
@@ -194,8 +194,8 @@
       <TabGroupName />
       <IsTabGroupOwner>false</IsTabGroupOwner>
       <SideTabOrder>0</SideTabOrder>
-      <IndexInDockMode>0</IndexInDockMode>
-      <IndexInFloatMode>1</IndexInFloatMode>
+      <IndexInDockMode>1</IndexInDockMode>
+      <IndexInFloatMode>2</IndexInFloatMode>
       <TabOrderInDockMode>0</TabOrderInDockMode>
       <TabOrderInFloatMode>0</TabOrderInFloatMode>
       <MDIBounds>0,0,124,50</MDIBounds>
@@ -247,36 +247,36 @@
       <ZorderInFloatMode>0</ZorderInFloatMode>
       <TabOrderIndex>-1</TabOrderIndex>
       <PreviousContainerDesiredSize>
-        <Width>372</Width>
-        <Height>551</Height>
+        <Width>351.00657967855875</Width>
+        <Height>275.5</Height>
       </PreviousContainerDesiredSize>
-      <PreviousDesiredWidthInDockedMode>372</PreviousDesiredWidthInDockedMode>
-      <PreviousDesiredHeightInDockedMode>284.99999999999994</PreviousDesiredHeightInDockedMode>
-      <Name>AddedName12</Name>
+      <PreviousDesiredWidthInDockedMode>351.00657967855875</PreviousDesiredWidthInDockedMode>
+      <PreviousDesiredHeightInDockedMode>275.5</PreviousDesiredHeightInDockedMode>
+      <Name>AddedName50</Name>
       <ShowTopmostMenuItem>true</ShowTopmostMenuItem>
       <TopMost>false</TopMost>
       <State>Dock</State>
       <NoHeader>false</NoHeader>
-      <SideDocked>Bottom</SideDocked>
+      <SideDocked>Right</SideDocked>
       <SideFloating>Left</SideFloating>
-      <TargetDocked>AddedName10</TargetDocked>
+      <TargetDocked />
       <TargetFloating />
-      <DesiredWidthInDockedMode>372</DesiredWidthInDockedMode>
-      <DesiredHeightInDockedMode>284.99999999999994</DesiredHeightInDockedMode>
-      <DesiredWidthInFloatingMode>518</DesiredWidthInFloatingMode>
-      <DesiredHeightInFloatingMode>259</DesiredHeightInFloatingMode>
+      <DesiredWidthInDockedMode>381.557303043675</DesiredWidthInDockedMode>
+      <DesiredHeightInDockedMode>273</DesiredHeightInDockedMode>
+      <DesiredWidthInFloatingMode>400</DesiredWidthInFloatingMode>
+      <DesiredHeightInFloatingMode>400</DesiredHeightInFloatingMode>
       <NoDock>false</NoDock>
       <CanDock>true</CanDock>
       <CanClose>true</CanClose>
       <IsSelectedTab>true</IsSelectedTab>
-      <IsActiveWindow>true</IsActiveWindow>
+      <IsActiveWindow>false</IsActiveWindow>
       <WindowRect>836,436,530,292</WindowRect>
       <TabGroupName />
       <IsTabGroupOwner>false</IsTabGroupOwner>
       <SideTabOrder>0</SideTabOrder>
-      <IndexInDockMode>1</IndexInDockMode>
-      <IndexInFloatMode>0</IndexInFloatMode>
-      <TabOrderInDockMode>0</TabOrderInDockMode>
+      <IndexInDockMode>3</IndexInDockMode>
+      <IndexInFloatMode>1</IndexInFloatMode>
+      <TabOrderInDockMode>1</TabOrderInDockMode>
       <TabOrderInFloatMode>0</TabOrderInFloatMode>
       <MDIBounds>0,0,124,50</MDIBounds>
       <TDIIndex>-1</TDIIndex>
@@ -288,10 +288,10 @@
       <WayOfTDIGroup />
       <DockForSide>Left</DockForSide>
       <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
-      <PreviousSideInDockMode>Right</PreviousSideInDockMode>
+      <PreviousSideInDockMode>Tabbed</PreviousSideInDockMode>
       <DoShift>false</DoShift>
-      <SideRelativetoContainer>Bottom</SideRelativetoContainer>
-      <TabParent>AddedName12</TabParent>
+      <SideRelativetoContainer>Left</SideRelativetoContainer>
+      <TabParent>AddedName50</TabParent>
       <DockWindowState>Normal</DockWindowState>
       <CanMaximize>true</CanMaximize>
       <CanMinimize>true</CanMinimize>
@@ -308,7 +308,7 @@
       <FixedHeight>0</FixedHeight>
       <FixedWidth>0</FixedWidth>
       <ContainerSize>
-        <Width>372</Width>
+        <Width>381.557303043675</Width>
         <Height>551</Height>
       </ContainerSize>
       <PreviousHostWidth>90</PreviousHostWidth>
@@ -317,7 +317,7 @@
       <PreviousContainerWidth>90</PreviousContainerWidth>
       <TargetAutoHide />
       <SplitPanelOffset>0</SplitPanelOffset>
-      <IsSwapped>false</IsSwapped>
+      <IsSwapped>true</IsSwapped>
     </DockingParams>
   </MapInfoDockingParams>
 </ArrayOfMapInfoDockingParams>
