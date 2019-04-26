@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\OSMM_Highways\WorkspacesFME\FerryNode.fmw
-#              --SourceDataset_GML "$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml.gz"
+#        "C:\Program Files\FME\fme.exe" "C:\OSMM_Highways\Software - HighwayMap DataOptimiser\FMEworkspaces\FerryNode.fmw"
+#              --SourceDataset_GML "$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml*"
 #              --DestDataset_GEOPACKAGE "$(MIDDLE_FOLDER)\FerryNode.gpkg"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -18,8 +18,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="e1f2233e-2054-4e8d-8777-edc75452e628"
-#!   FME_DOCUMENT_PRIORGUID="316b4190-f4a6-4f66-b6b0-fc7b115b152c,3fea6fee-2a09-484e-9e16-33c862bc2680,cb320f12-430e-429e-bb4d-b0519db0e7d6,6e082ca0-3f9b-47dc-a469-75848595e8a3,da26647c-08c5-476d-b794-ffd18aa990bc,58c7236f-0b0b-4799-883a-dda80882419b,34be81bd-7b35-4aba-ab36-56b230fed66f,70bd5fc8-e3bb-49fe-92fb-79d9c9742e68,f72b58e7-9cad-41ee-9da2-0b60244ad2dc,44f33999-69b4-4760-94fd-6fcd186be74f,74e66787-3f71-4527-ad96-32767e81fed4,a8ac1863-e76a-4a7b-b1c2-015ae21a7ee6,86ab7b04-0526-46b8-b5d4-dfbb866a1e9c,7fd55af9-0a4a-44fc-803b-01c005a9ae39,fe666ed0-8507-4e94-9bd8-2b99afff0d13,0605b88e-6c5d-492c-83af-c409bd7e4e61,d87da546-5023-4e4b-999f-192f41b745e5,bf631a3a-2999-4063-8c28-144bf223282b,d563dada-d6a1-49ae-8b1f-be1bdcd937c6,0d6bd60c-6ec0-4e08-9efb-2ceffbe47496,a425ca3b-7a2c-4384-856d-a69c6cec3efb,5339f200-58da-4779-92e8-7b3933168a99,8aba2c10-21c4-41b3-8a5c-bc1fbb3e7a03,77f4ed2a-f59f-4f32-a231-562e51ff61bf"
+#!   FME_DOCUMENT_GUID="ba7ba6dc-f2fc-464c-ac8e-b283d08d89d6"
+#!   FME_DOCUMENT_PRIORGUID="316b4190-f4a6-4f66-b6b0-fc7b115b152c,3fea6fee-2a09-484e-9e16-33c862bc2680,cb320f12-430e-429e-bb4d-b0519db0e7d6,6e082ca0-3f9b-47dc-a469-75848595e8a3,da26647c-08c5-476d-b794-ffd18aa990bc,58c7236f-0b0b-4799-883a-dda80882419b,34be81bd-7b35-4aba-ab36-56b230fed66f,70bd5fc8-e3bb-49fe-92fb-79d9c9742e68,f72b58e7-9cad-41ee-9da2-0b60244ad2dc,44f33999-69b4-4760-94fd-6fcd186be74f,74e66787-3f71-4527-ad96-32767e81fed4,a8ac1863-e76a-4a7b-b1c2-015ae21a7ee6,86ab7b04-0526-46b8-b5d4-dfbb866a1e9c,7fd55af9-0a4a-44fc-803b-01c005a9ae39,fe666ed0-8507-4e94-9bd8-2b99afff0d13,0605b88e-6c5d-492c-83af-c409bd7e4e61,d87da546-5023-4e4b-999f-192f41b745e5,bf631a3a-2999-4063-8c28-144bf223282b,d563dada-d6a1-49ae-8b1f-be1bdcd937c6,0d6bd60c-6ec0-4e08-9efb-2ceffbe47496,a425ca3b-7a2c-4384-856d-a69c6cec3efb,5339f200-58da-4779-92e8-7b3933168a99,8aba2c10-21c4-41b3-8a5c-bc1fbb3e7a03,77f4ed2a-f59f-4f32-a231-562e51ff61bf,e1f2233e-2054-4e8d-8777-edc75452e628"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-25T14:37:22"
+#!   LAST_SAVE_DATE="2019-01-13T19:41:49"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -65,7 +65,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_keyword xml_char(50) fme_basename xml_char(50) fme_color xml_char(50) multi_reader_id xml_int32 fme_text_size xml_real64 gml_id xml_char(254) fme_fill_color xml_char(50) fme_geometry fme_char(50) xml_type xml_char(50) fme_primary_axis xml_real64 gml_original_coordinate_system xml_char(64) fme_start_angle xml_real64 fme_type xml_char(50) fme_text_string xml_char(50) fme_secondary_axis xml_real64 fme_dataset xml_char(50) fme_sweep_angle xml_real64 xml_ns_uri xml_char(254) multi_reader_full_id xml_int32 fme_feature_type xml_char(50) fme_rotation xml_real64 gml_parent_id xml_char(254) multi_reader_type xml_char(50) gml_parent_property xml_char(254)"
+#!   EXPOSABLE_ATTRS="fme_text_size xml_real64 multi_reader_full_id xml_int32 fme_fill_color xml_char(50) multi_reader_keyword xml_char(50) fme_start_angle xml_real64 multi_reader_type xml_char(50) fme_geometry fme_char(50) fme_color xml_char(50) gml_original_coordinate_system xml_char(64) fme_sweep_angle xml_real64 fme_text_string xml_char(50) gml_parent_id xml_char(254) gml_id xml_char(254) fme_primary_axis xml_real64 fme_type xml_char(50) multi_reader_id xml_int32 gml_parent_property xml_char(254) fme_dataset xml_char(50) xml_ns_uri xml_char(254) fme_secondary_axis xml_real64 xml_type xml_char(50) fme_rotation xml_real64 fme_basename xml_char(50) fme_feature_type xml_char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -123,7 +123,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_rotation double fme_feature_type text(50) fme_basename text(50) fme_color text(50) fme_sweep_angle double fme_dataset text(50) fme_text_string text(50) fme_text_size double fme_primary_axis double fme_start_angle double fme_type text(50) fme_fill_color text(50) geopackage_type text(255) fme_secondary_axis double fme_geometry fme_char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_size double fme_color text(50) fme_secondary_axis double fme_primary_axis double fme_dataset text(50) fme_rotation double fme_start_angle double fme_fill_color text(50) fme_geometry fme_char(50) fme_feature_type text(50) fme_basename text(50) geopackage_type text(255) fme_sweep_angle double fme_type text(50) fme_text_string text(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
@@ -876,7 +876,7 @@
 #! <DATASET 
 #!   NAME="GML_1"
 #!   OVERRIDE="-GML_1_DATASET"
-#!   DATASET="$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml.gz"
+#!   DATASET="$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml*"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
@@ -890,7 +890,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source FerryNode GML File(s):"
-#!   DEFAULT_VALUE="$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml.gz"
+#!   DEFAULT_VALUE="$(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml*"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -983,7 +983,7 @@
 #!   BOUNDING_RECT="1323.4496826099235 -921.25699999999995 1221.8872188721889 357.96046885468854"
 #!   STICKY="true"
 #!   COLOUR="1,0,0"
-#!   CONTENTS="20 17 18 "
+#!   CONTENTS="17 18 20 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1815,7 +1815,7 @@
 
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_GML_1,GML_IN_IGNORE_APPLICATON_SCHEMA_GML_1,GML_IN_XSD_DOC_GML_1,GML_IN_VALIDATE_DATASET_GML_1,GML_IN_SKIP_SCHEMA_LOCATION_IN_DATASET_GML_1,GML_IN_MAP_FEATURE_COLLECTION_GML_1,GML_IN_GML_FEATURE_ELEMENTS_GML_1,GML_IN_SRS_GEOMETRY_PARAMETERS_GML_1,GML_IN_SRS_AXIS_ORDER_GML_1,GML_IN_SRS_ANGLE_DIRECTION_GML_1,GML_IN_ENFORCE_PATH_CONTINUITY_BY_GML_1,GML_IN_FEATURE_PROPERTIES_READER_GML_1,GML_IN_MAP_EMBEDDED_OBJECTS_AS_GML_1,GML_IN_MAP_PREDEFINED_GML_PROPERTIES_GML_1,GML_IN_MAP_GEOMETRY_COLUMNS_GML_1,GML_IN_MAP_ALL_SUBSTITUTABLE_PROPERTIES_GML_1,GML_IN_ADD_NAMESPACE_PREFIX_TO_NAMES_GML_1,GML_IN_QNAMES_FOR_PROPERTIES_TO_IGNORE_GML_1,GML_IN_ATTRIBUTE_HANDLING_GML_1,GML_IN_MAP_COMPLEX_PROPERTIES_AS_GML_1,GML_IN_MAX_MULTI_LIST_LEVEL_GML_1,GML_IN_ADD_GEOMETRIES_AS_XML_FRAGMENTS_GML_1,GML_IN_XML_FRAGMENTS_AS_DOCUMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_OPEN_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_CLOSE_LIST_BRACE_GML_1,GML_IN_FLATTEN_XML_FRAGMENTS_SEPARATOR_GML_1,GML_IN_GML_READER_GROUP_GML_1,GML_IN_USE_OLD_READER_GML_1,GML_IN_DISABLE_AUTOMATIC_READER_TYPE_SELECTION_GML_1,GML_IN_DISABLE_XML_NAMESPACE_PROCESSING_GML_1,GML_IN_EXPOSE_ATTRS_GROUP_GML_1,GML_IN_SEARCH_ENVELOPE_MINX_GML_1,GML_IN_SEARCH_ENVELOPE_MINY_GML_1,GML_IN_SEARCH_ENVELOPE_MAXX_GML_1,GML_IN_SEARCH_ENVELOPE_MAXY_GML_1,GML_IN_CLIP_TO_ENVELOPE_GML_1,GML_IN_GML_RDR_ADV_GML_1,GML_IN_CONTINUE_ON_GEOM_ERROR_GML_1,GML_IN_SYSTEM_ENCODING_GML_1,GML_IN_CACHE_XSD_GML_1,GML_IN_CACHE_XSD_EXPIRY_TIME_GML_1,GML_IN_MULTI_VALUE_SIMPLE_PROPERTIES_AS_CSV_GML_1,GML_IN_NETWORK_AUTHENTICATION_GML_1,SEARCH_ENVELOPE_COORDINATE_SYSTEM_GML_1,DestDataset_GEOPACKAGE_1,GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1,GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1,GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1,GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1
-DEFAULT_MACRO SourceDataset_GML $(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml.gz
+DEFAULT_MACRO SourceDataset_GML $(DATA_INPUT_FOLDER)\Highways_*_FerryNode_*.gml*
 GUI MULTIFILE SourceDataset_GML GML_Files(*.gml;*.gz;*.xml)|*.gml;*gz;*.xml|GML_Files(*.gml)|*.gml|Compressed_GML_Files(*.gz)|*.gz|GML_Files(*.xml)|*.xml|All_Files|* Source FerryNode GML File(s):
 DEFAULT_MACRO DestDataset_GEOPACKAGE $(MIDDLE_FOLDER)\FerryNode.gpkg
 GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* Middle FerryNode Geopackage File:
@@ -2125,8 +2125,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME DateFormatter    INPUT  FEATURE_TYPE Da
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_b643c0bb_90bf_41ab_bef7_1a6d273190140_replacer { findText replaceText invalidValue} {     set attrs [split \"formOfWaterwayNode.xlink_href\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_b643c0bb_90bf_41ab_bef7_1a6d273190140_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>FormOfWaterwayNodeValue<solidus>} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_f1613cd4_84f3_4133_a8bd_14862af383af1_replacer { findText replaceText invalidValue} {     set attrs [split \"formOfWaterwayNode.xlink_href\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE DateFormatter_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_f1613cd4_84f3_4133_a8bd_14862af383af1_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>FormOfWaterwayNodeValue<solidus>} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>FerryNode<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")

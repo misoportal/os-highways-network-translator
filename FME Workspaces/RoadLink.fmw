@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\OSMM_Highways\WorkspacesFME\RoadLink.fmw
+#        "C:\Program Files\FME\fme.exe" "C:\OSMM_Highways\Software - HighwayMap DataOptimiser\FMEworkspaces\RoadLink.fmw"
 #              --SourceDataset_GML "$(ROADS_DATA_INPUT_FOLDER)\Highways_Rrami_RoadLink_*.gml*"
 #              --DestDataset_GEOPACKAGE "$(MIDDLE_FOLDER)\RoadLink.gpkg"
 #    
@@ -18,8 +18,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="164e2f16-da0b-4953-a3c4-afd81d83ca65"
-#!   FME_DOCUMENT_PRIORGUID="903d7ed4-eb5c-475a-8a05-86ed80992d60,1e4cc095-e756-4daf-9eaf-bc77e9f09a35,9e27f501-5f38-48b5-aa8f-70af68b64b91,cefe17ae-d86c-463e-9fb2-b4f1a0aad32a,3a0ea031-af2e-4405-8f24-ed0e8c1f0d0d,63d913a8-24b5-451b-b8b8-311fe024908f,5ba934f7-3105-458b-99f4-07fd56415e2d,967e1c8b-72df-416a-a836-149eb6d56378,e0a6a4cb-66e3-41bd-bfc7-f1a2169d61b5,7ebdcf83-52c6-469a-8266-f9395a79011a,304581e1-43e5-45b7-b65f-def2fd016d4a,f1c15b75-447b-4866-92ba-bd4572e4ff00,576ed9fc-c529-40b9-978c-3e39ad11238c,6e860167-7cfa-4959-8e84-894001ee8d22,266d6a47-505c-479f-a475-ee35c7b8c7a9,bca783af-a243-45d6-a405-cb4e4f6010ae,aa23f75b-a62e-4a85-961e-279e787ac0c1,a2427103-5e09-4901-9bdb-2c6674619579,1aed6eec-f2b3-4828-b81c-4be763b08c2f,2aeb1e77-a8b2-4348-b53e-092b6e9792b0,3d61c799-f16d-43a9-8be7-fe225dfb9bc6,d228d0ff-4b5d-48d2-8a5e-9b8433bcc302,d10b00d5-a7b0-414b-a564-a9d361590dd7,1de156d9-9cd3-467e-bac3-5130568cf544,30cabedf-ed3a-4b52-a1e6-c803306f8825,2a996fc3-7fdd-4e28-b5e0-4d9ad58bd9db,91fe1081-359e-4573-a2cf-a362e71b10fd,a1cd5dfc-11a5-472c-ad3f-f75ab3514819,d31f0597-9aee-4880-a107-97b7b027d543,322be2b2-fa0b-4610-95ea-004e4f16ea01,41b45168-ac3f-4c93-978e-2b8d38245e1d,75e61626-e9fd-4e4d-a342-4cc5cf2d916e,a1bac474-e125-49f3-855c-3c5c90c03325,1510154f-b25d-4afd-8990-5beb818f51a4,429039e8-bf8d-4235-b83c-6b52df7605af,6735177c-a329-483a-8ea7-d72f60ef915f,a235388d-6507-498a-8eed-214a9ca9985d,5b7f801a-64bb-4da0-807a-c505a27fbafa,4091e5c6-c4c5-4804-9470-2b6c33712283,39dfc367-6d65-49dd-9e11-65d1ded8c93a,e9c85cb2-ca5b-4ad4-8482-d4249962761c,2eef985e-e055-4116-8be3-f0540cda9791,9e9a5a81-8826-439e-9dc5-eb5ef09981e4,7ae9758f-411d-4302-85ff-2317a0421cf0,da6b172f-212c-4976-9097-57ac4540acf0,10a552c1-35ca-4829-9d77-ecbba95fe76f,1c61f9b4-abbd-46d2-9d1a-d318458a8eac,02013f1b-e8f1-4909-95a0-0d6a0c91fb8f,aeba3df9-474e-416e-beda-b72a55393689,48633ea8-5dd7-470d-8b3c-e1f20a1a71c5,eadd8d85-b356-4068-969a-a6444d929b42,f794708c-998a-4751-8a43-0560963417df,1677dcd7-b05e-43e9-9258-866347f91bb2,04ff613d-30de-40d1-a7a4-c5254599d85b,437f20d0-c150-4bec-aa89-07eb46bd7f5a,f24b4db5-efb9-4f1f-ac99-f7a20c41c27a,aa67ee9e-f038-4c91-ad61-04ffbf6f8446,533d5b2d-60ac-4c8e-9361-7401f515d7b8,58dc9cce-42ee-44bf-a97f-9be839381a6f,6dc41cb7-d107-4060-9b41-06165d8fe885,3e4f11dd-5be8-45b5-a8bb-b297141a71fe,70808c59-8537-4794-91a3-4f42fed10120,9821d822-2c5d-40f9-8a11-3cd3130ba530,2233d498-febd-4698-bc2e-df1fc723d5c0,71d066d2-e515-4ce2-a088-e529fa47724a,93330546-7273-4b6b-b8ed-a30b6fabdea7,0f6d1512-52eb-4af6-9d57-6737f7870bb4,8e3c8374-ef5f-479a-b060-e64b8156c664,2b735c71-1af6-45cb-a348-90d1acc7a91e,2127b8a5-cc66-4038-bccf-cf8bff8932e0,53e3ddb8-b1ac-4f06-bdfe-205160027b4d,efac7ed7-501a-434d-85ee-77ba24f42d32,68143dbc-e5ae-454a-a5e1-6e20348bf508,c7bce800-f833-40e0-b584-c072aeb315fb,570db6ac-4eb9-470e-810c-c6a1e9052df0,bb7f09f3-b5b7-4d51-8cbb-9f531821da8a,a7927f2e-7183-4a28-a4c4-2469d467654b,c668047e-54a4-46d3-8155-a9ae1b07ec22,a4da90ba-130d-4c3b-968d-57c31a1ff6be,95e3013f-1395-4995-94a2-462dfda662ab,ca2ce17c-8de5-4a8d-90d6-8d60d074aff9,48188b15-4707-4cc8-b739-d5b50decde31,94965f34-4b8b-4856-98c0-221831ae0c15,d1e679d0-ed2f-42fa-ba3d-759aef44b9fa,e848256e-59b4-44eb-8ee8-1e67bb75731d,abae8ef9-f34b-4cd9-912c-b85705678cd9,588b4584-3a1f-4641-b6c7-1f0f287c01a8,727ec539-fc1b-4398-b0b3-e024f6c367cd,4d5f4608-b254-4430-bdc5-dc18fe4a1167,37454005-ec39-4da5-b103-2987d6c20ca8,6146341a-3d70-4896-91d0-dc041e53362d,ad814fe8-0852-4955-ae02-29508b02117a,6261db42-5c3a-4a62-87ce-424a22f37174,5994351a-5899-4e2b-a617-072baaf608d4,958a3e21-8a61-416c-b45f-e46c794728ab,10d489ba-cf89-4b91-8e6d-abb0bf56aba2,f318e4bd-235b-4598-9cf0-dfe8aa80b1ab,446343b0-b51c-41df-8117-ce1f983129b2,50611b41-ca55-4d1b-8126-6646e298586a,b3da192b-248d-4bef-ac59-85cbe207078d,85fee70d-9677-43d7-8f7c-ea2af1aa1f8d,20410e5e-52dc-424f-af28-be348ba17db3,0211e234-f1f3-4a84-9e61-067d32ffaf84,63bc9d73-4cc6-4d8b-adef-cb8dceebbcd4,495544a2-43f2-4feb-be22-37c46f3a325b,da689b7f-0a0d-4b39-ab14-c0a6a2342640,fbef9e6a-11ff-4409-8d38-645b1115f50c"
+#!   FME_DOCUMENT_GUID="dd6bca61-3550-40e1-8fee-114380768134"
+#!   FME_DOCUMENT_PRIORGUID="903d7ed4-eb5c-475a-8a05-86ed80992d60,1e4cc095-e756-4daf-9eaf-bc77e9f09a35,9e27f501-5f38-48b5-aa8f-70af68b64b91,cefe17ae-d86c-463e-9fb2-b4f1a0aad32a,3a0ea031-af2e-4405-8f24-ed0e8c1f0d0d,63d913a8-24b5-451b-b8b8-311fe024908f,5ba934f7-3105-458b-99f4-07fd56415e2d,967e1c8b-72df-416a-a836-149eb6d56378,e0a6a4cb-66e3-41bd-bfc7-f1a2169d61b5,7ebdcf83-52c6-469a-8266-f9395a79011a,304581e1-43e5-45b7-b65f-def2fd016d4a,f1c15b75-447b-4866-92ba-bd4572e4ff00,576ed9fc-c529-40b9-978c-3e39ad11238c,6e860167-7cfa-4959-8e84-894001ee8d22,266d6a47-505c-479f-a475-ee35c7b8c7a9,bca783af-a243-45d6-a405-cb4e4f6010ae,aa23f75b-a62e-4a85-961e-279e787ac0c1,a2427103-5e09-4901-9bdb-2c6674619579,1aed6eec-f2b3-4828-b81c-4be763b08c2f,2aeb1e77-a8b2-4348-b53e-092b6e9792b0,3d61c799-f16d-43a9-8be7-fe225dfb9bc6,d228d0ff-4b5d-48d2-8a5e-9b8433bcc302,d10b00d5-a7b0-414b-a564-a9d361590dd7,1de156d9-9cd3-467e-bac3-5130568cf544,30cabedf-ed3a-4b52-a1e6-c803306f8825,2a996fc3-7fdd-4e28-b5e0-4d9ad58bd9db,91fe1081-359e-4573-a2cf-a362e71b10fd,a1cd5dfc-11a5-472c-ad3f-f75ab3514819,d31f0597-9aee-4880-a107-97b7b027d543,322be2b2-fa0b-4610-95ea-004e4f16ea01,41b45168-ac3f-4c93-978e-2b8d38245e1d,75e61626-e9fd-4e4d-a342-4cc5cf2d916e,a1bac474-e125-49f3-855c-3c5c90c03325,1510154f-b25d-4afd-8990-5beb818f51a4,429039e8-bf8d-4235-b83c-6b52df7605af,6735177c-a329-483a-8ea7-d72f60ef915f,a235388d-6507-498a-8eed-214a9ca9985d,5b7f801a-64bb-4da0-807a-c505a27fbafa,4091e5c6-c4c5-4804-9470-2b6c33712283,39dfc367-6d65-49dd-9e11-65d1ded8c93a,e9c85cb2-ca5b-4ad4-8482-d4249962761c,2eef985e-e055-4116-8be3-f0540cda9791,9e9a5a81-8826-439e-9dc5-eb5ef09981e4,7ae9758f-411d-4302-85ff-2317a0421cf0,da6b172f-212c-4976-9097-57ac4540acf0,10a552c1-35ca-4829-9d77-ecbba95fe76f,1c61f9b4-abbd-46d2-9d1a-d318458a8eac,02013f1b-e8f1-4909-95a0-0d6a0c91fb8f,aeba3df9-474e-416e-beda-b72a55393689,48633ea8-5dd7-470d-8b3c-e1f20a1a71c5,eadd8d85-b356-4068-969a-a6444d929b42,f794708c-998a-4751-8a43-0560963417df,1677dcd7-b05e-43e9-9258-866347f91bb2,04ff613d-30de-40d1-a7a4-c5254599d85b,437f20d0-c150-4bec-aa89-07eb46bd7f5a,f24b4db5-efb9-4f1f-ac99-f7a20c41c27a,aa67ee9e-f038-4c91-ad61-04ffbf6f8446,533d5b2d-60ac-4c8e-9361-7401f515d7b8,58dc9cce-42ee-44bf-a97f-9be839381a6f,6dc41cb7-d107-4060-9b41-06165d8fe885,3e4f11dd-5be8-45b5-a8bb-b297141a71fe,70808c59-8537-4794-91a3-4f42fed10120,9821d822-2c5d-40f9-8a11-3cd3130ba530,2233d498-febd-4698-bc2e-df1fc723d5c0,71d066d2-e515-4ce2-a088-e529fa47724a,93330546-7273-4b6b-b8ed-a30b6fabdea7,0f6d1512-52eb-4af6-9d57-6737f7870bb4,8e3c8374-ef5f-479a-b060-e64b8156c664,2b735c71-1af6-45cb-a348-90d1acc7a91e,2127b8a5-cc66-4038-bccf-cf8bff8932e0,53e3ddb8-b1ac-4f06-bdfe-205160027b4d,efac7ed7-501a-434d-85ee-77ba24f42d32,68143dbc-e5ae-454a-a5e1-6e20348bf508,c7bce800-f833-40e0-b584-c072aeb315fb,570db6ac-4eb9-470e-810c-c6a1e9052df0,bb7f09f3-b5b7-4d51-8cbb-9f531821da8a,a7927f2e-7183-4a28-a4c4-2469d467654b,c668047e-54a4-46d3-8155-a9ae1b07ec22,a4da90ba-130d-4c3b-968d-57c31a1ff6be,95e3013f-1395-4995-94a2-462dfda662ab,ca2ce17c-8de5-4a8d-90d6-8d60d074aff9,48188b15-4707-4cc8-b739-d5b50decde31,94965f34-4b8b-4856-98c0-221831ae0c15,d1e679d0-ed2f-42fa-ba3d-759aef44b9fa,e848256e-59b4-44eb-8ee8-1e67bb75731d,abae8ef9-f34b-4cd9-912c-b85705678cd9,588b4584-3a1f-4641-b6c7-1f0f287c01a8,727ec539-fc1b-4398-b0b3-e024f6c367cd,4d5f4608-b254-4430-bdc5-dc18fe4a1167,37454005-ec39-4da5-b103-2987d6c20ca8,6146341a-3d70-4896-91d0-dc041e53362d,ad814fe8-0852-4955-ae02-29508b02117a,6261db42-5c3a-4a62-87ce-424a22f37174,5994351a-5899-4e2b-a617-072baaf608d4,958a3e21-8a61-416c-b45f-e46c794728ab,10d489ba-cf89-4b91-8e6d-abb0bf56aba2,f318e4bd-235b-4598-9cf0-dfe8aa80b1ab,446343b0-b51c-41df-8117-ce1f983129b2,50611b41-ca55-4d1b-8126-6646e298586a,b3da192b-248d-4bef-ac59-85cbe207078d,85fee70d-9677-43d7-8f7c-ea2af1aa1f8d,20410e5e-52dc-424f-af28-be348ba17db3,0211e234-f1f3-4a84-9e61-067d32ffaf84,63bc9d73-4cc6-4d8b-adef-cb8dceebbcd4,495544a2-43f2-4feb-be22-37c46f3a325b,da689b7f-0a0d-4b39-ab14-c0a6a2342640,fbef9e6a-11ff-4409-8d38-645b1115f50c,164e2f16-da0b-4953-a3c4-afd81d83ca65,ca0d2f3a-6064-4814-98b7-91842369191b,9f444324-c605-4d4a-80dc-593a3cf3aead"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - WIN64)"
-#!   LAST_SAVE_DATE="2018-11-25T21:04:02"
+#!   LAST_SAVE_DATE="2019-01-12T19:34:34"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="747.43 396.267"
+#!   VIEW_POSITION="-70.877 650.78"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="97"
@@ -65,7 +65,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_keyword xml_char(50) fme_basename xml_char(50) fme_color xml_char(50) multi_reader_id xml_int32 fme_text_size xml_real64 gml_id xml_char(254) fme_fill_color xml_char(50) fme_geometry fme_char(50) xml_type xml_char(50) fme_primary_axis xml_real64 gml_original_coordinate_system xml_char(64) fme_start_angle xml_real64 fme_type xml_char(50) fme_text_string xml_char(50) fme_secondary_axis xml_real64 fme_dataset xml_char(50) fme_sweep_angle xml_real64 xml_ns_uri xml_char(254) multi_reader_full_id xml_int32 fme_feature_type xml_char(50) fme_rotation xml_real64 gml_parent_id xml_char(254) gml_parent_property xml_char(254) multi_reader_type xml_char(50)"
+#!   EXPOSABLE_ATTRS="fme_basename xml_char(50) multi_reader_type xml_char(50) fme_primary_axis xml_real64 fme_geometry fme_char(50) gml_id xml_char(254) gml_parent_property xml_char(254) gml_parent_id xml_char(254) fme_start_angle xml_real64 fme_feature_type xml_char(50) multi_reader_full_id xml_int32 xml_type xml_char(50) multi_reader_keyword xml_char(50) fme_text_size xml_real64 fme_fill_color xml_char(50) fme_secondary_axis xml_real64 fme_type xml_char(50) fme_text_string xml_char(50) fme_dataset xml_char(50) fme_color xml_char(50) gml_original_coordinate_system xml_char(64) multi_reader_id xml_int32 fme_sweep_angle xml_real64 fme_rotation xml_real64 xml_ns_uri xml_char(254)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -123,7 +123,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geopackage_type {FME_GEN_GEOMETRY} fme_table_handling CREATE_IF_MISSING geopackage_geometry_column &quot;&quot; geopackage_primary_index_column &quot;&quot; geopackage_create_spatial_index YES"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_rotation double fme_feature_type text(50) fme_color text(50) fme_basename text(50) fme_sweep_angle double fme_dataset text(50) fme_primary_axis double fme_text_size double fme_text_string text(50) fme_start_angle double fme_type text(50) fme_fill_color text(50) geopackage_type text(255) fme_secondary_axis double fme_geometry fme_char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_text_string text(50) fme_dataset text(50) fme_color text(50) fme_fill_color text(50) fme_start_angle double fme_primary_axis double fme_geometry fme_char(50) fme_secondary_axis double fme_feature_type text(50) fme_type text(50) fme_rotation double fme_text_size double fme_basename text(50) geopackage_type text(255)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table Settings&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE fme_table_handling Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group geopackage_geometry_column%geopackage_primary_index_column%geopackage_create_spatial_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_geometry_column Spatial Column&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT geopackage_primary_index_column Primary Index Column&quot; &quot;&quot; &quot;GUI CHOICE geopackage_create_spatial_index Yes%No Create Spatial Index&quot; Yes "
 #!   ATTR_INDEX_TYPES="indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\&quot;{}()&apos;,@&amp;`~!#$%^*+-=|[]:;&lt;&gt;?./"
@@ -798,6 +798,7 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="endGradeSeparation" ATTR_TYPE="mediumint" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="roadStructure" ATTR_TYPE="text(14)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="cycleFacility" ATTR_TYPE="text(120)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="cycleFacilityWholeLink" ATTR_TYPE="text(1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="roadWidthMinimum" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="roadWidthAverage" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="elevationGainInDirection" ATTR_TYPE="text(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1404,7 +1405,7 @@
 #!   BOUNDING_RECT="-1232.73 315.74000000000001 584.94200000000001 1344.72"
 #!   STICKY="true"
 #!   COLOUR="1,0.84705882352941175,0.99215686274509807"
-#!   CONTENTS="19 26 31 22 25 24 23 27 30 32 33 "
+#!   CONTENTS="19 24 32 25 22 26 27 23 33 30 31 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1417,7 +1418,7 @@
 #!   BOUNDING_RECT="-558.72199999999998 324.00299999999999 588.82399999999996 1352.98"
 #!   STICKY="true"
 #!   COLOUR="0.52941176470588236,0.078431372549019607,0.83921568627450982"
-#!   CONTENTS="53 55 58 59 60 54 61 48 51 52 50 "
+#!   CONTENTS="52 60 50 51 53 59 58 54 48 61 55 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1430,7 +1431,7 @@
 #!   BOUNDING_RECT="-1365.3499999999999 -2596.46 2589.3600000000001 484.57100000000003"
 #!   STICKY="true"
 #!   COLOUR="0.015686274509803921,0.15686274509803921,0.73725490196078436"
-#!   CONTENTS="152 102 89 90 91 87 145 103 "
+#!   CONTENTS="90 91 102 145 87 152 89 103 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1443,7 +1444,7 @@
 #!   BOUNDING_RECT="-1365.3499999999999 -1789.5699999999999 4083.3800000000001 662.32000000000005"
 #!   STICKY="true"
 #!   COLOUR="0.15686274509803921,0.41960784313725491,0.45882352941176469"
-#!   CONTENTS="100 72 122 85 79 78 84 127 81 80 83 126 75 73 74 77 82 71 86 "
+#!   CONTENTS="83 78 79 72 85 73 81 82 71 100 126 75 84 74 86 127 80 77 122 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1456,7 +1457,7 @@
 #!   BOUNDING_RECT="-1281.3 -1188.01 2256.3099999999999 462.005"
 #!   STICKY="true"
 #!   COLOUR="0.21176470588235294,0.78431372549019607,0.72941176470588232"
-#!   CONTENTS="62 67 106 69 116 "
+#!   CONTENTS="62 116 69 106 67 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1469,7 +1470,7 @@
 #!   BOUNDING_RECT="-1281.3 651.00699999999995 4518.3299999999999 1728.02"
 #!   STICKY="true"
 #!   COLOUR="0.078431372549019607,0.55686274509803924,0.62745098039215685"
-#!   CONTENTS="55 105 48 155 124 167 24 25 156 59 130 54 110 125 159 135 129 150 99 149 53 109 123 50 137 108 32 158 136 27 19 51 139 22 115 58 61 98 29 52 151 33 146 142 148 141 4 26 147 157 104 114 133 60 134 143 30 132 113 131 107 57 140 128 154 138 31 23 144 "
+#!   CONTENTS="130 107 19 110 125 134 135 30 128 108 33 154 27 147 168 22 53 136 115 52 141 114 31 59 24 158 58 32 138 60 139 25 26 29 149 23 113 137 144 156 105 157 166 124 51 159 57 55 146 140 132 123 167 109 142 131 54 98 143 133 61 155 151 129 148 4 104 50 150 48 99 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1482,20 +1483,20 @@
 #!   BOUNDING_RECT="703.45500000000004 -472.923 1831.3 479.34800000000001"
 #!   STICKY="true"
 #!   COLOUR="0.24705882352941178,0.050980392156862744,0.23921568627450981"
-#!   CONTENTS="138 136 139 141 147 "
+#!   CONTENTS="138 139 147 136 141 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="130"
 #!   NAME="miso addition"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="2577.441681701353 137.56299999999999"
+#!   TOP_LEFT="2580.6633634027062 259.74000000000001"
 #!   ORDER="500000000000000.13"
-#!   BOTTOM_RIGHT="3131.441681701353 -186.85753867847956"
-#!   BOUNDING_RECT="2577.441681701353 137.56299999999999 554 324.42053867847955"
+#!   BOTTOM_RIGHT="3134.6633634027062 -191.31063145683004"
+#!   BOUNDING_RECT="2580.6633634027062 259.74000000000001 554 451.05063145683005"
 #!   STICKY="true"
 #!   COLOUR="1,0,0"
-#!   CONTENTS="156 "
+#!   CONTENTS="168 166 156 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1508,7 +1509,7 @@
 #!   BOUNDING_RECT="-3236.6152479362886 -1686.3741237169195 1221.8872188721889 357.96046885468854"
 #!   STICKY="true"
 #!   COLOUR="1,0,0"
-#!   CONTENTS="162 160 161 "
+#!   CONTENTS="160 162 161 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1522,7 +1523,7 @@
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16492"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1599,12 +1600,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="inspireId.Identifier.localId,localId,,inspireId.Identifier.namespace,identifierNamespace,,inspireId.Identifier.versionId,identifierVersionId,,operationalState.OperationalStateType.state,operationalState_State,,operationalState.OperationalStateType.reason,operationsState_Reason,,startNode.xlink_href,startNode,,endNode.xlink_href,endNode,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_beginPosition,operationalState_StartTime,,operationalState.OperationalStateType.validTime.gml_TimePeriod.gml_endPosition,operationalState_EndTime,,cycleFacility.CycleFacilityType.cycleFacility,cycleFacility,"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
@@ -3696,12 +3697,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
 #!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="#"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
@@ -3980,12 +3981,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="directionality.xlink_href"/>
 #!     <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="&lt;solidus&gt;"/>
@@ -4082,12 +4083,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="directinality_list&lt;opencurly&gt;5&lt;closecurly&gt;,directionality,"/>
@@ -4187,7 +4188,7 @@
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="17725"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -4373,12 +4374,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer_4_OUTPUT"/>
@@ -4469,12 +4470,12 @@
 #!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
@@ -4685,10 +4686,11 @@
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="17725"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.wholeLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="minMaxNumberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -4698,7 +4700,7 @@
 #!     <XFORM_ATTR ATTR_NAME="chunkname" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  REMOVE alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  REMOVE alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE beginLifespanVersion beginLifespanVersion  REMOVE cycleFacility cycleFacility  REMOVE cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  REMOVE cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  REMOVE cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  REMOVE cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  REMOVE directionality.owns directionality.owns  REMOVE directionality.xlink_href directionality.xlink_href  REMOVE elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  REMOVE elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  REMOVE elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  REMOVE elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  REMOVE endGradeSeparation endGradeSeparation  REMOVE endNode.owns endNode.owns  REMOVE endNode endNode  REMOVE fictitious fictitious  REMOVE formOfWay formOfWay  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE TOID TOID  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE localId localId  REMOVE identifierNamespace identifierNamespace  REMOVE length length  REMOVE length.uom length.uom  REMOVE matchStatus matchStatus  REMOVE matchStatus.codeSpace matchStatus.codeSpace  REMOVE NumberOfLanesType.direction.owns NumberOfLanesType.direction.owns  REMOVE NumberOfLanesType.direction.xlink_href direction  RENAME_SET_VALUE NumberOfLanesType.minMaxNumberOfLanes minMaxNumberOfLanes  RENAME_SET_VALUE NumberOfLanesType.numberOfLanes numberOfLanes  RENAME_SET_VALUE operationalState operationalState  REMOVE operationalState.codeSpace operationalState.codeSpace  REMOVE primaryRoute primaryRoute  REMOVE provenance provenance  REMOVE provenance.codeSpace provenance.codeSpace  REMOVE reasonForChange reasonForChange  REMOVE reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE roadClassification roadClassification  REMOVE roadClassification.codeSpace roadClassification.codeSpace  REMOVE roadClassificationNumber roadClassificationNumber  REMOVE roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  REMOVE roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  REMOVE roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  REMOVE roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  REMOVE roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  REMOVE routeHierarchy routeHierarchy  REMOVE routeHierarchy.codeSpace routeHierarchy.codeSpace  REMOVE startGradeSeparation startGradeSeparation  REMOVE startNode.owns startNode.owns  REMOVE startNode startNode  REMOVE trunkRoad trunkRoad  REMOVE validFrom validFrom  REMOVE validFrom.nilReason validFrom.nilReason  REMOVE validFrom.xsi_nil validFrom.xsi_nil  REMOVE xml_ns_uri xml_ns_uri  REMOVE roadName1_Language roadName1_Language  REMOVE roadName2_Language roadName2_Language  REMOVE alternativeName1 alternativeName1  REMOVE alternativeName1_Language alternativeName1_Language  REMOVE alternativeName2 alternativeName2  REMOVE alternativeName2_Language alternativeName2_Language  REMOVE operationsState_Reason operationsState_Reason  REMOVE operationalState_EndTime operationalState_EndTime  REMOVE identifierVersionId identifierVersionId  REMOVE operationalState_State operationalState_State  REMOVE operationalState_StartTime operationalState_StartTime  REMOVE roadWidthAverage roadWidthAverage  REMOVE roadWidthMinimum roadWidthMinimum  REMOVE directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE directionality directionality  REMOVE elevationGainInDirection elevationGainInDirection  REMOVE elevationGainOppositeDirection elevationGainOppositeDirection  REMOVE _element_index _element_index  REMOVE identifier identifier  NO_OP roadName1_Name roadName1_Name  REMOVE roadName2_Name roadName2_Name  REMOVE roadStructure roadStructure  NO_OP chunkname chunkname  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifier  REMOVE alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme alternateIdentifier&lt;opencurly&gt;&lt;closecurly&gt;.ThematicIdentifier.identifierScheme  REMOVE alternateName&lt;opencurly&gt;&lt;closecurly&gt; alternateName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE beginLifespanVersion beginLifespanVersion  REMOVE cycleFacility cycleFacility  REMOVE cycleFacility.CycleFacilityType.cycleFacility.codeSpace cycleFacility.CycleFacilityType.cycleFacility.codeSpace  REMOVE cycleFacility.CycleFacilityType.wholeLink cycleFacility.CycleFacilityType.wholeLink  REMOVE cycleFacility.CycleFacilityType.wholeLink.nilReason cycleFacility.CycleFacilityType.wholeLink.nilReason  REMOVE cycleFacility.CycleFacilityType.wholeLink.xsi_nil cycleFacility.CycleFacilityType.wholeLink.xsi_nil  NO_OP directionality.owns directionality.owns  REMOVE directionality.xlink_href directionality.xlink_href  REMOVE elevationGain.ElevationGainType.inDirection elevationGain.ElevationGainType.inDirection  REMOVE elevationGain.ElevationGainType.inDirection.uom elevationGain.ElevationGainType.inDirection.uom  REMOVE elevationGain.ElevationGainType.inOppositeDirection elevationGain.ElevationGainType.inOppositeDirection  REMOVE elevationGain.ElevationGainType.inOppositeDirection.uom elevationGain.ElevationGainType.inOppositeDirection.uom  REMOVE endGradeSeparation endGradeSeparation  REMOVE endNode.owns endNode.owns  REMOVE endNode endNode  REMOVE fictitious fictitious  REMOVE formOfWay formOfWay  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href formsPartOf&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE TOID TOID  NO_OP inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href inNetwork&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE localId localId  REMOVE identifierNamespace identifierNamespace  REMOVE length length  REMOVE length.uom length.uom  REMOVE matchStatus matchStatus  REMOVE matchStatus.codeSpace matchStatus.codeSpace  REMOVE NumberOfLanesType.direction.owns NumberOfLanesType.direction.owns  REMOVE NumberOfLanesType.direction.xlink_href direction  RENAME_SET_VALUE NumberOfLanesType.minMaxNumberOfLanes minMaxNumberOfLanes  RENAME_SET_VALUE NumberOfLanesType.numberOfLanes numberOfLanes  RENAME_SET_VALUE operationalState operationalState  REMOVE operationalState.codeSpace operationalState.codeSpace  REMOVE primaryRoute primaryRoute  REMOVE provenance provenance  REMOVE provenance.codeSpace provenance.codeSpace  REMOVE reasonForChange reasonForChange  REMOVE reasonForChange.codeSpace reasonForChange.codeSpace  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.owns  REMOVE relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href relatedRoadArea&lt;opencurly&gt;&lt;closecurly&gt;.xlink_href  REMOVE roadClassification roadClassification  REMOVE roadClassification.codeSpace roadClassification.codeSpace  REMOVE roadClassificationNumber roadClassificationNumber  REMOVE roadName&lt;opencurly&gt;&lt;closecurly&gt; roadName&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE roadWidth.RoadWidthType.averageWidth roadWidth.RoadWidthType.averageWidth  REMOVE roadWidth.RoadWidthType.averageWidth.uom roadWidth.RoadWidthType.averageWidth.uom  REMOVE roadWidth.RoadWidthType.confidenceLevel roadWidth.RoadWidthType.confidenceLevel  REMOVE roadWidth.RoadWidthType.minimumWidth roadWidth.RoadWidthType.minimumWidth  REMOVE roadWidth.RoadWidthType.minimumWidth.uom roadWidth.RoadWidthType.minimumWidth.uom  REMOVE routeHierarchy routeHierarchy  REMOVE routeHierarchy.codeSpace routeHierarchy.codeSpace  REMOVE startGradeSeparation startGradeSeparation  REMOVE startNode.owns startNode.owns  REMOVE startNode startNode  REMOVE trunkRoad trunkRoad  REMOVE validFrom validFrom  REMOVE validFrom.nilReason validFrom.nilReason  REMOVE validFrom.xsi_nil validFrom.xsi_nil  REMOVE xml_ns_uri xml_ns_uri  REMOVE roadName1_Language roadName1_Language  REMOVE roadName2_Language roadName2_Language  REMOVE alternativeName1 alternativeName1  REMOVE alternativeName1_Language alternativeName1_Language  REMOVE alternativeName2 alternativeName2  REMOVE alternativeName2_Language alternativeName2_Language  REMOVE operationsState_Reason operationsState_Reason  REMOVE operationalState_EndTime operationalState_EndTime  REMOVE identifierVersionId identifierVersionId  REMOVE operationalState_State operationalState_State  REMOVE operationalState_StartTime operationalState_StartTime  REMOVE roadWidthAverage roadWidthAverage  REMOVE roadWidthMinimum roadWidthMinimum  REMOVE directinality_list&lt;opencurly&gt;&lt;closecurly&gt; directinality_list&lt;opencurly&gt;&lt;closecurly&gt;  REMOVE directionality directionality  REMOVE elevationGainInDirection elevationGainInDirection  REMOVE elevationGainOppositeDirection elevationGainOppositeDirection  REMOVE _element_index _element_index  REMOVE identifier identifier  NO_OP roadName1_Name roadName1_Name  REMOVE roadName2_Name roadName2_Name  REMOVE roadStructure roadStructure  NO_OP chunkname chunkname  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -4720,6 +4722,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.wholeLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="minMaxNumberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5050,8 +5053,8 @@
 #!   IDENTIFIER="156"
 #!   TYPE="AttributeRenamer"
 #!   VERSION="4"
-#!   POSITION="2651.441681701353 11.917300000000012"
-#!   BOUNDING_RECT="2651.441681701353 11.917300000000012 -1 -1"
+#!   POSITION="2654.6633634027062 -5.4073263163662375"
+#!   BOUNDING_RECT="2654.6633634027062 -5.4073263163662375 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -5063,6 +5066,7 @@
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier7" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier8" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier9" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacilityWholeLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="alternateIdentifier3" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -5394,6 +5398,121 @@
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="&quot;BOOL_OP,OR,COMPOSITE_TEST,&quot;&quot;&quot;&quot;&quot;&quot;&lt;Unused&gt;&quot;&quot;&quot;&quot;&quot;&quot;,TEST_CLAUSE,TEST&lt;space&gt;validFrom&lt;space&gt;ATTRIBUTE_HAS_A_VALUE&lt;space&gt;&lt;quote&gt;&lt;quote&gt;&quot;,ValidFrom"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="166"
+#!   TYPE="AttributeCreator"
+#!   VERSION="9"
+#!   POSITION="2654.6633634027062 143.75945875128855"
+#!   BOUNDING_RECT="2654.6633634027062 143.75945875128855 -1 -1"
+#!   ORDER="500000000000162"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="cycleFacilityWholeLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier3" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier4" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier5" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier{}.ThematicIdentifier.identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateIdentifier{}.ThematicIdentifier.identifierScheme" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternateName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="beginLifespanVersion" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.cycleFacility.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.wholeLink" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.wholeLink.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cycleFacility.CycleFacilityType.wholeLink.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="directionality.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="directionality.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGain.ElevationGainType.inDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGain.ElevationGainType.inDirection.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGain.ElevationGainType.inOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGain.ElevationGainType.inOppositeDirection.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endGradeSeparation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endNode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="endNode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fictitious" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="formOfWay" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="formsPartOf{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TOID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="inNetwork{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="localId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierNamespace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="length" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="length.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="matchStatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="matchStatus.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="numberOfLanes{}.NumberOfLanesType.direction.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="numberOfLanes{}.NumberOfLanesType.direction.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="numberOfLanes{}.NumberOfLanesType.minMaxNumberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="numberOfLanes{}.NumberOfLanesType.numberOfLanes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="primaryRoute" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="provenance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="provenance.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reasonForChange.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="relatedRoadArea{}.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="relatedRoadArea{}.xlink_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassification" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassification.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadClassificationNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadName{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidth.RoadWidthType.averageWidth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidth.RoadWidthType.averageWidth.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidth.RoadWidthType.confidenceLevel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidth.RoadWidthType.minimumWidth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidth.RoadWidthType.minimumWidth.uom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="routeHierarchy" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="routeHierarchy.codeSpace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startGradeSeparation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startNode.owns" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="startNode" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="trunkRoad" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.nilReason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="validFrom.xsi_nil" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="xml_ns_uri" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadName1_Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadName2_Name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternativeName1" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternativeName1_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternativeName2" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="alternativeName2_Language" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationsState_Reason" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_EndTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifierVersionId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_State" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="operationalState_StartTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidthAverage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadWidthMinimum" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="directinality_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="directionality" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGainInDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="elevationGainOppositeDirection" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="identifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="roadStructure" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="chunkname" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; cycleFacilityWholeLink SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;cycleFacility.CycleFacilityType.wholeLink&lt;closeparen&gt; = true&apos;T&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;cycleFacility.CycleFacilityType.wholeLink&lt;closeparen&gt; = false&apos;F&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;cycleFacility.CycleFacilityType.wholeLink.nilReason&lt;closeparen&gt; = unknown&apos;?&apos;FME_NUM_CONDITIONS4___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -5807,7 +5926,7 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="157"
 #!   SOURCE_NODE="143"
-#!   TARGET_NODE="156"
+#!   TARGET_NODE="166"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5864,6 +5983,17 @@
 #!   SOURCE_NODE="161"
 #!   TARGET_NODE="160"
 #!   SOURCE_PORT_DESC="fo 0 ValidFrom"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="168"
+#!   SOURCE_NODE="166"
+#!   TARGET_NODE="156"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -6253,10 +6383,10 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_561b3e45_e450_4e83_bd32_dc33c486db9d0_replacer { findText replaceText invalidValue} {     set attrs [split \"endNode,startNode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_561b3e45_e450_4e83_bd32_dc33c486db9d0_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_0560ef89_fead_489a_893b_3ae95a770e720_replacer { findText replaceText invalidValue} {     set attrs [split \"endNode,startNode\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_0560ef89_fead_489a_893b_3ae95a770e720_replacer {#} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
-Tcl2 set AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitDelim [FME_DecodeText {<solidus>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitDelim]] }      {         set AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitWidths [split [regsub -all {s$} {<solidus>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set attrNum 0;            set listName [FME_DecodeText {directinality_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitDelim;            set delim [set AttributeSplitter_2d74eedc_d678_4153_a0de_3ffaaae714aa0_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {directinality_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+Tcl2 set AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitDelim [FME_DecodeText {<solidus>}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitDelim]] }      {         set AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitWidths [split [regsub -all {s$} {<solidus>} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set attrNum 0;            set listName [FME_DecodeText {directinality_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitDelim;            set delim [set AttributeSplitter_c3a67d06_6dc6_4a0a_ad08_0a017f730a930_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {directionality.xlink_href}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {directinality_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_4    INPUT  FEATURE_TYPE AttributeSplitter_OUTPUT    OUTPUT FEATURE_TYPE AttributeRenamer_4_OUTPUT         @RenameAttributes(ATTR_LIST_DEF_VAL_ENCODED, directinality_list<opencurly>5<closecurly>,directionality,)
@@ -6274,16 +6404,18 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME ListExploder_5    INPUT  FEATURE_TYPE A
 # -------------------------------------------------------------------------
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_4    INPUT  FEATURE_TYPE ListExploder_5_Output    LIST_NAME "numberOfLanes{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_4_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager_3    INPUT  FEATURE_TYPE ListExploder_4_ELEMENTS    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifier" "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifier" "" "REMOVE" }      ATTR_ACTION { "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifierScheme" "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifierScheme" "" "REMOVE" }      ATTR_ACTION { "alternateName<opencurly><closecurly>" "alternateName<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "beginLifespanVersion" "beginLifespanVersion" "" "REMOVE" }      ATTR_ACTION { "cycleFacility" "cycleFacility" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.cycleFacility.codeSpace" "cycleFacility.CycleFacilityType.cycleFacility.codeSpace" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.wholeLink" "cycleFacility.CycleFacilityType.wholeLink" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.wholeLink.nilReason" "cycleFacility.CycleFacilityType.wholeLink.nilReason" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.wholeLink.xsi_nil" "cycleFacility.CycleFacilityType.wholeLink.xsi_nil" "" "REMOVE" }      ATTR_ACTION { "directionality.owns" "directionality.owns" "" "REMOVE" }      ATTR_ACTION { "directionality.xlink_href" "directionality.xlink_href" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inDirection" "elevationGain.ElevationGainType.inDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inDirection.uom" "elevationGain.ElevationGainType.inDirection.uom" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inOppositeDirection" "elevationGain.ElevationGainType.inOppositeDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inOppositeDirection.uom" "elevationGain.ElevationGainType.inOppositeDirection.uom" "" "REMOVE" }      ATTR_ACTION { "endGradeSeparation" "endGradeSeparation" "" "REMOVE" }      ATTR_ACTION { "endNode.owns" "endNode.owns" "" "REMOVE" }      ATTR_ACTION { "endNode" "endNode" "" "REMOVE" }      ATTR_ACTION { "fictitious" "fictitious" "" "REMOVE" }      ATTR_ACTION { "formOfWay" "formOfWay" "" "REMOVE" }      ATTR_ACTION { "formsPartOf<opencurly><closecurly>.owns" "formsPartOf<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "formsPartOf<opencurly><closecurly>.xlink_href" "formsPartOf<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "inNetwork<opencurly><closecurly>.owns" "inNetwork<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "inNetwork<opencurly><closecurly>.xlink_href" "inNetwork<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "localId" "localId" "" "REMOVE" }      ATTR_ACTION { "identifierNamespace" "identifierNamespace" "" "REMOVE" }      ATTR_ACTION { "length" "length" "" "REMOVE" }      ATTR_ACTION { "length.uom" "length.uom" "" "REMOVE" }      ATTR_ACTION { "matchStatus" "matchStatus" "" "REMOVE" }      ATTR_ACTION { "matchStatus.codeSpace" "matchStatus.codeSpace" "" "REMOVE" }      ATTR_ACTION { "NumberOfLanesType.direction.owns" "NumberOfLanesType.direction.owns" "" "REMOVE" }      ATTR_ACTION { "NumberOfLanesType.direction.xlink_href" "direction" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "NumberOfLanesType.minMaxNumberOfLanes" "minMaxNumberOfLanes" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "NumberOfLanesType.numberOfLanes" "numberOfLanes" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "operationalState" "operationalState" "" "REMOVE" }      ATTR_ACTION { "operationalState.codeSpace" "operationalState.codeSpace" "" "REMOVE" }      ATTR_ACTION { "primaryRoute" "primaryRoute" "" "REMOVE" }      ATTR_ACTION { "provenance" "provenance" "" "REMOVE" }      ATTR_ACTION { "provenance.codeSpace" "provenance.codeSpace" "" "REMOVE" }      ATTR_ACTION { "reasonForChange" "reasonForChange" "" "REMOVE" }      ATTR_ACTION { "reasonForChange.codeSpace" "reasonForChange.codeSpace" "" "REMOVE" }      ATTR_ACTION { "relatedRoadArea<opencurly><closecurly>.owns" "relatedRoadArea<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "relatedRoadArea<opencurly><closecurly>.xlink_href" "relatedRoadArea<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "roadClassification" "roadClassification" "" "REMOVE" }      ATTR_ACTION { "roadClassification.codeSpace" "roadClassification.codeSpace" "" "REMOVE" }      ATTR_ACTION { "roadClassificationNumber" "roadClassificationNumber" "" "REMOVE" }      ATTR_ACTION { "roadName<opencurly><closecurly>" "roadName<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.averageWidth" "roadWidth.RoadWidthType.averageWidth" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.averageWidth.uom" "roadWidth.RoadWidthType.averageWidth.uom" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.confidenceLevel" "roadWidth.RoadWidthType.confidenceLevel" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.minimumWidth" "roadWidth.RoadWidthType.minimumWidth" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.minimumWidth.uom" "roadWidth.RoadWidthType.minimumWidth.uom" "" "REMOVE" }      ATTR_ACTION { "routeHierarchy" "routeHierarchy" "" "REMOVE" }      ATTR_ACTION { "routeHierarchy.codeSpace" "routeHierarchy.codeSpace" "" "REMOVE" }      ATTR_ACTION { "startGradeSeparation" "startGradeSeparation" "" "REMOVE" }      ATTR_ACTION { "startNode.owns" "startNode.owns" "" "REMOVE" }      ATTR_ACTION { "startNode" "startNode" "" "REMOVE" }      ATTR_ACTION { "trunkRoad" "trunkRoad" "" "REMOVE" }      ATTR_ACTION { "validFrom" "validFrom" "" "REMOVE" }      ATTR_ACTION { "validFrom.nilReason" "validFrom.nilReason" "" "REMOVE" }      ATTR_ACTION { "validFrom.xsi_nil" "validFrom.xsi_nil" "" "REMOVE" }      ATTR_ACTION { "xml_ns_uri" "xml_ns_uri" "" "REMOVE" }      ATTR_ACTION { "roadName1_Language" "roadName1_Language" "" "REMOVE" }      ATTR_ACTION { "roadName2_Language" "roadName2_Language" "" "REMOVE" }      ATTR_ACTION { "alternativeName1" "alternativeName1" "" "REMOVE" }      ATTR_ACTION { "alternativeName1_Language" "alternativeName1_Language" "" "REMOVE" }      ATTR_ACTION { "alternativeName2" "alternativeName2" "" "REMOVE" }      ATTR_ACTION { "alternativeName2_Language" "alternativeName2_Language" "" "REMOVE" }      ATTR_ACTION { "operationsState_Reason" "operationsState_Reason" "" "REMOVE" }      ATTR_ACTION { "operationalState_EndTime" "operationalState_EndTime" "" "REMOVE" }      ATTR_ACTION { "identifierVersionId" "identifierVersionId" "" "REMOVE" }      ATTR_ACTION { "operationalState_State" "operationalState_State" "" "REMOVE" }      ATTR_ACTION { "operationalState_StartTime" "operationalState_StartTime" "" "REMOVE" }      ATTR_ACTION { "roadWidthAverage" "roadWidthAverage" "" "REMOVE" }      ATTR_ACTION { "roadWidthMinimum" "roadWidthMinimum" "" "REMOVE" }      ATTR_ACTION { "directinality_list<opencurly><closecurly>" "directinality_list<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "directionality" "directionality" "" "REMOVE" }      ATTR_ACTION { "elevationGainInDirection" "elevationGainInDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGainOppositeDirection" "elevationGainOppositeDirection" "" "REMOVE" }      ATTR_ACTION { "_element_index" "_element_index" "" "REMOVE" }      ATTR_ACTION { "roadName1_Name" "roadName1_Name" "" "REMOVE" }      ATTR_ACTION { "roadName2_Name" "roadName2_Name" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_3_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager_3    INPUT  FEATURE_TYPE ListExploder_4_ELEMENTS    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifier" "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifier" "" "REMOVE" }      ATTR_ACTION { "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifierScheme" "alternateIdentifier<opencurly><closecurly>.ThematicIdentifier.identifierScheme" "" "REMOVE" }      ATTR_ACTION { "alternateName<opencurly><closecurly>" "alternateName<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "beginLifespanVersion" "beginLifespanVersion" "" "REMOVE" }      ATTR_ACTION { "cycleFacility" "cycleFacility" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.cycleFacility.codeSpace" "cycleFacility.CycleFacilityType.cycleFacility.codeSpace" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.wholeLink" "cycleFacility.CycleFacilityType.wholeLink" "" "REMOVE" }      ATTR_ACTION { "cycleFacility.CycleFacilityType.wholeLink.nilReason" "cycleFacility.CycleFacilityType.wholeLink.nilReason" "" "REMOVE" }      ATTR_ACTION { "directionality.owns" "directionality.owns" "" "REMOVE" }      ATTR_ACTION { "directionality.xlink_href" "directionality.xlink_href" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inDirection" "elevationGain.ElevationGainType.inDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inDirection.uom" "elevationGain.ElevationGainType.inDirection.uom" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inOppositeDirection" "elevationGain.ElevationGainType.inOppositeDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGain.ElevationGainType.inOppositeDirection.uom" "elevationGain.ElevationGainType.inOppositeDirection.uom" "" "REMOVE" }      ATTR_ACTION { "endGradeSeparation" "endGradeSeparation" "" "REMOVE" }      ATTR_ACTION { "endNode.owns" "endNode.owns" "" "REMOVE" }      ATTR_ACTION { "endNode" "endNode" "" "REMOVE" }      ATTR_ACTION { "fictitious" "fictitious" "" "REMOVE" }      ATTR_ACTION { "formOfWay" "formOfWay" "" "REMOVE" }      ATTR_ACTION { "formsPartOf<opencurly><closecurly>.owns" "formsPartOf<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "formsPartOf<opencurly><closecurly>.xlink_href" "formsPartOf<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "inNetwork<opencurly><closecurly>.owns" "inNetwork<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "inNetwork<opencurly><closecurly>.xlink_href" "inNetwork<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "localId" "localId" "" "REMOVE" }      ATTR_ACTION { "identifierNamespace" "identifierNamespace" "" "REMOVE" }      ATTR_ACTION { "length" "length" "" "REMOVE" }      ATTR_ACTION { "length.uom" "length.uom" "" "REMOVE" }      ATTR_ACTION { "matchStatus" "matchStatus" "" "REMOVE" }      ATTR_ACTION { "matchStatus.codeSpace" "matchStatus.codeSpace" "" "REMOVE" }      ATTR_ACTION { "NumberOfLanesType.direction.owns" "NumberOfLanesType.direction.owns" "" "REMOVE" }      ATTR_ACTION { "NumberOfLanesType.direction.xlink_href" "direction" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "NumberOfLanesType.minMaxNumberOfLanes" "minMaxNumberOfLanes" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "NumberOfLanesType.numberOfLanes" "numberOfLanes" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "operationalState" "operationalState" "" "REMOVE" }      ATTR_ACTION { "operationalState.codeSpace" "operationalState.codeSpace" "" "REMOVE" }      ATTR_ACTION { "primaryRoute" "primaryRoute" "" "REMOVE" }      ATTR_ACTION { "provenance" "provenance" "" "REMOVE" }      ATTR_ACTION { "provenance.codeSpace" "provenance.codeSpace" "" "REMOVE" }      ATTR_ACTION { "reasonForChange" "reasonForChange" "" "REMOVE" }      ATTR_ACTION { "reasonForChange.codeSpace" "reasonForChange.codeSpace" "" "REMOVE" }      ATTR_ACTION { "relatedRoadArea<opencurly><closecurly>.owns" "relatedRoadArea<opencurly><closecurly>.owns" "" "REMOVE" }      ATTR_ACTION { "relatedRoadArea<opencurly><closecurly>.xlink_href" "relatedRoadArea<opencurly><closecurly>.xlink_href" "" "REMOVE" }      ATTR_ACTION { "roadClassification" "roadClassification" "" "REMOVE" }      ATTR_ACTION { "roadClassification.codeSpace" "roadClassification.codeSpace" "" "REMOVE" }      ATTR_ACTION { "roadClassificationNumber" "roadClassificationNumber" "" "REMOVE" }      ATTR_ACTION { "roadName<opencurly><closecurly>" "roadName<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.averageWidth" "roadWidth.RoadWidthType.averageWidth" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.averageWidth.uom" "roadWidth.RoadWidthType.averageWidth.uom" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.confidenceLevel" "roadWidth.RoadWidthType.confidenceLevel" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.minimumWidth" "roadWidth.RoadWidthType.minimumWidth" "" "REMOVE" }      ATTR_ACTION { "roadWidth.RoadWidthType.minimumWidth.uom" "roadWidth.RoadWidthType.minimumWidth.uom" "" "REMOVE" }      ATTR_ACTION { "routeHierarchy" "routeHierarchy" "" "REMOVE" }      ATTR_ACTION { "routeHierarchy.codeSpace" "routeHierarchy.codeSpace" "" "REMOVE" }      ATTR_ACTION { "startGradeSeparation" "startGradeSeparation" "" "REMOVE" }      ATTR_ACTION { "startNode.owns" "startNode.owns" "" "REMOVE" }      ATTR_ACTION { "startNode" "startNode" "" "REMOVE" }      ATTR_ACTION { "trunkRoad" "trunkRoad" "" "REMOVE" }      ATTR_ACTION { "validFrom" "validFrom" "" "REMOVE" }      ATTR_ACTION { "validFrom.nilReason" "validFrom.nilReason" "" "REMOVE" }      ATTR_ACTION { "validFrom.xsi_nil" "validFrom.xsi_nil" "" "REMOVE" }      ATTR_ACTION { "xml_ns_uri" "xml_ns_uri" "" "REMOVE" }      ATTR_ACTION { "roadName1_Language" "roadName1_Language" "" "REMOVE" }      ATTR_ACTION { "roadName2_Language" "roadName2_Language" "" "REMOVE" }      ATTR_ACTION { "alternativeName1" "alternativeName1" "" "REMOVE" }      ATTR_ACTION { "alternativeName1_Language" "alternativeName1_Language" "" "REMOVE" }      ATTR_ACTION { "alternativeName2" "alternativeName2" "" "REMOVE" }      ATTR_ACTION { "alternativeName2_Language" "alternativeName2_Language" "" "REMOVE" }      ATTR_ACTION { "operationsState_Reason" "operationsState_Reason" "" "REMOVE" }      ATTR_ACTION { "operationalState_EndTime" "operationalState_EndTime" "" "REMOVE" }      ATTR_ACTION { "identifierVersionId" "identifierVersionId" "" "REMOVE" }      ATTR_ACTION { "operationalState_State" "operationalState_State" "" "REMOVE" }      ATTR_ACTION { "operationalState_StartTime" "operationalState_StartTime" "" "REMOVE" }      ATTR_ACTION { "roadWidthAverage" "roadWidthAverage" "" "REMOVE" }      ATTR_ACTION { "roadWidthMinimum" "roadWidthMinimum" "" "REMOVE" }      ATTR_ACTION { "directinality_list<opencurly><closecurly>" "directinality_list<opencurly><closecurly>" "" "REMOVE" }      ATTR_ACTION { "directionality" "directionality" "" "REMOVE" }      ATTR_ACTION { "elevationGainInDirection" "elevationGainInDirection" "" "REMOVE" }      ATTR_ACTION { "elevationGainOppositeDirection" "elevationGainOppositeDirection" "" "REMOVE" }      ATTR_ACTION { "_element_index" "_element_index" "" "REMOVE" }      ATTR_ACTION { "roadName1_Name" "roadName1_Name" "" "REMOVE" }      ATTR_ACTION { "roadName2_Name" "roadName2_Name" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_3_OUTPUT
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_4_3f748b00_1b15_4c66_aaa7_c41f1b61965a0_replacer { findText replaceText invalidValue} {     set attrs [split \"direction\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_4    INPUT  FEATURE_TYPE AttributeManager_3_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT         @Tcl2("StringReplacer_4_3f748b00_1b15_4c66_aaa7_c41f1b61965a0_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>LinkDirectionValue<solidus>} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_4_21bf7e3c_c169_4a99_940a_4beaff6425d90_replacer { findText replaceText invalidValue} {     set attrs [split \"direction\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_4    INPUT  FEATURE_TYPE AttributeManager_3_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT         @Tcl2("StringReplacer_4_21bf7e3c_c169_4a99_940a_4beaff6425d90_replacer {http:<solidus><solidus>inspire.ec.europa.eu<solidus>codelist<solidus>LinkDirectionValue<solidus>} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer_11    INPUT  FEATURE_TYPE AttributeManager_OUTPUT_0_qkWxPTSviNs= 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "alternateIdentifier<opencurly>0<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier1" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>1<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier2" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>2<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier3" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>3<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier4" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>4<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier5" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_11_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer_12    INPUT  FEATURE_TYPE AttributeRenamer_11_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "alternateIdentifier<opencurly>5<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier6" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>6<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier7" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>7<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier8" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>8<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier9" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_12_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRenamer_11_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "cycleFacilityWholeLink" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>cycleFacility.CycleFacilityType.wholeLink<closeparen> = true'T'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>cycleFacility.CycleFacilityType.wholeLink<closeparen> = false'F'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>cycleFacility.CycleFacilityType.wholeLink.nilReason<closeparen> = unknown'?'FME_NUM_CONDITIONS4___" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeRenamer_12    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "alternateIdentifier<opencurly>5<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier6" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>6<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier7" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>7<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier8" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "alternateIdentifier<opencurly>8<closecurly>.ThematicIdentifier.identifier" "alternateIdentifier9" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_12_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_2    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_1_5Bv9sBqpeX4=    LIST_NAME "formsPartOf{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_2_LIST_FOUND         @RemoveAttributes(ElementFactory.baseCloned)
 # -------------------------------------------------------------------------
@@ -6302,8 +6434,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_9    INPUT  FEATURE_TY
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2_ecd0febd_30f1_4c19_adc2_79bf160b38fa0_replacer { findText replaceText invalidValue} {     set attrs [split \"formsPartOf\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeRenamer_9_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_ecd0febd_30f1_4c19_adc2_79bf160b38fa0_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_2_d1ec22e6_096e_4918_8368_2585c2db87a20_replacer { findText replaceText invalidValue} {     set attrs [split \"formsPartOf\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE AttributeRenamer_9_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_d1ec22e6_096e_4918_8368_2585c2db87a20_replacer {#} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_3    INPUT  FEATURE_TYPE AttributeRenamer_5_OUTPUT_0_k6aB/J5mAeY=    LIST_NAME "relatedRoadArea{}"    ELEMENT_NUMBER_FIELD "_element_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "ORIGINAL_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_3_LIST_FOUND         @RemoveAttributes(ElementFactory.baseCloned)
 # -------------------------------------------------------------------------
@@ -6311,8 +6443,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRenamer_10    INPUT  FEATURE_T
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_3_c0b6ad01_e0bb_4762_b238_51524e2ae03f0_replacer { findText replaceText invalidValue} {     set attrs [split \"RelatedRoadAreaTOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE AttributeRenamer_10_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_c0b6ad01_e0bb_4762_b238_51524e2ae03f0_replacer {#} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_3_459f61da_bb05_4309_9696_b18765ed4d070_replacer { findText replaceText invalidValue} {     set attrs [split \"RelatedRoadAreaTOID\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE AttributeRenamer_10_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_459f61da_bb05_4309_9696_b18765ed4d070_replacer {#} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeRenamer_12_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRenamer_8_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_AlternateIdentifier<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_2_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_FormsPartOf<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_4_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_NumberOfLanes<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_3_OUTPUT TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>RoadLink_TopoTOIDRef<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -6321,12 +6453,12 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF RoadLink_FormsPartOf   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   formsPartOf                  text(20)   refType                      text(20)
+# -------------------------------------------------------------------------
+GEOPACKAGE_1_DEF RoadLink   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   identifier                   text(16)   identifierVersionId          text(20)   fictitious                   boolean   roadClassification           text(21),indexed   routeHierarchy               text(32)   formOfWay                    text(42)   trunkRoad                    boolean   primaryRoute                 boolean   roadClassificationNumber     text(10)   roadName1_Name               text(255)   roadName2_Name               text(255)   roadName1_Language           text(3)   roadName2_Language           text(3)   operationalState             text(19)   provenance                   text(40)   directionality               text(21)   length                       double   matchStatus                  text(39)   alternateIdentifier1         text(20)   alternateIdentifier2         text(20)   alternateIdentifier3         text(20)   alternateIdentifier4         text(20)   alternateIdentifier5         text(20)   alternateIdentifier6         text(20)   alternateIdentifier7         text(20)   alternateIdentifier8         text(20)   alternateIdentifier9         text(20)   startGradeSeparation         mediumint   endGradeSeparation           mediumint   roadStructure                text(14)   cycleFacility                text(120)   cycleFacilityWholeLink       text(1)   roadWidthMinimum             text(20)   roadWidthAverage             text(20)   elevationGainInDirection     text(20)   elevationGainOppositeDirection text(20)   startNode                    text(20)   endNode                      text(20)   alternativeName1             text(255)   alternativeName2             text(255)   alternativeName1_Language    text(3)   alternativeName2_Language    text(3)   beginLifespanVersion         text(20)   reasonForChange              text(32)   validFrom                    text(20)   chunkname                    text(50)
+# -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF RoadLink_TopoTOIDRef   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   RelatedRoadAreaTOID          text(39)
 # -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF RoadLink_NumberOfLanes   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   direction                    text(50)   minMaxNumberOfLanes          text(20)   numberOfLanes                mediumint
 # -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF RoadLink   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   identifier                   text(16)   identifierVersionId          text(20)   fictitious                   boolean   roadClassification           text(21),indexed   routeHierarchy               text(32)   formOfWay                    text(42)   trunkRoad                    boolean   primaryRoute                 boolean   roadClassificationNumber     text(10)   roadName1_Name               text(255)   roadName2_Name               text(255)   roadName1_Language           text(3)   roadName2_Language           text(3)   operationalState             text(19)   provenance                   text(40)   directionality               text(21)   length                       double   matchStatus                  text(39)   alternateIdentifier1         text(20)   alternateIdentifier2         text(20)   alternateIdentifier3         text(20)   alternateIdentifier4         text(20)   alternateIdentifier5         text(20)   alternateIdentifier6         text(20)   alternateIdentifier7         text(20)   alternateIdentifier8         text(20)   alternateIdentifier9         text(20)   startGradeSeparation         mediumint   endGradeSeparation           mediumint   roadStructure                text(14)   cycleFacility                text(120)   roadWidthMinimum             text(20)   roadWidthAverage             text(20)   elevationGainInDirection     text(20)   elevationGainOppositeDirection text(20)   startNode                    text(20)   endNode                      text(20)   alternativeName1             text(255)   alternativeName2             text(255)   alternativeName1_Language    text(3)   alternativeName2_Language    text(3)   beginLifespanVersion         text(20)   reasonForChange              text(32)   validFrom                    text(20)   chunkname                    text(50)
-# -------------------------------------------------------------------------
 GEOPACKAGE_1_DEF RoadLink_AlternateIdentifier   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   alternateIdentifier          text(20)   alternateIdentifierSchema    text(50)
-# -------------------------------------------------------------------------
-GEOPACKAGE_1_DEF RoadLink_FormsPartOf   geopackage_type              All   fme_table_handling           DROP_CREATE   geopackage_geometry_column   ""   geopackage_primary_index_column ""   geopackage_create_spatial_index Yes   TOID                         text(20)   formsPartOf                  text(20)   refType                      text(20)
