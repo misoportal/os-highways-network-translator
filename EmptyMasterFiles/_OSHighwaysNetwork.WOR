@@ -31,11 +31,9 @@ Open Table "Street_Numbered_Roads" As Street_Numbered_Roads Interactive
 Open Table "Structure" As Structure Interactive
 Open Table "TurnRestrictionPoint" As TurnRestrictionPoint Interactive
 Open Table "TurnRestrictionLine" As TurnRestrictionLine Interactive
-Map From GroupLayer("Restrictions",RestrictionForVehiclesPoint,RestrictionForVehiclesLine,
-  TurnRestrictionPoint,TurnRestrictionLine,AccessRestrictionPoint,AccessRestrictionLine),
+Map From GroupLayer("Restrictions",RestrictionForVehiclesPoint,RestrictionForVehiclesLine,TurnRestrictionPoint,TurnRestrictionLine,AccessRestrictionPoint,AccessRestrictionLine),
   GroupLayer("Hazards, Structures",Hazard,Structure,Advisory_RoadLink),
-  GroupLayer("Nodes",RoadNode,PathNode,ConnectingNode),
-  GroupLayer("Links",FerryLink_Paths,FerryLink_Roads,RoadLink,PathLink,ConnectingLink)
+  GroupLayer("Nodes",RoadNode ,PathNode,ConnectingNode),GroupLayer("Links",FerryLink_Paths,FerryLink_Roads,RoadLink,PathLink,ConnectingLink)
   Position (0.0416667,1.59375) Units "in"
   Width 7.10417 Units "in" Height 2.90625 Units "in" 
 Dim easting As Integer
@@ -46,7 +44,7 @@ Fetch First From Central
 easting = Central.col1
 northing = Central.col2
 Run Menu Command 304
-Close Table Central
+Close Table Central					  
 Set Window FrontWindow() ScrollBars Off Autoscroll On Enhanced On Smooth Text Antialias Image High
 Set Map
   CoordSys Earth Projection 8, 79, "m", -2, 49, 0.9996012717, 400000, -100000
@@ -515,7 +513,7 @@ set legend
       auto display on  
 Set Window FrontWindow() Title "NSG Streets Map"
 Create Designer Legend
-  Position (8.70833,4.54167) Units "in"
+  Position (7.5,5.15625) Units "in"
   Width 5.39583 Units "in" Height 2.69792 Units "in" 
   Window Title "Legend: NSG Streets"
   Custom
